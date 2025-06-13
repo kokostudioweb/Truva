@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --font-main: 'Poppins', sans-serif;
+  --primary-color: #fff; 
+  --secondary-color: #000000;
+  --green-color: #1E3C4F;
+  --light-green-color: #76AC5A;
+  --grey-color: #D9D9D9;
+  --border-radius: 8px;
+}
+
+body {
+  font-family: var(--font-main);
+  /* background: #000000; */
+}
+
+.truva-container{
+    width: 90%;
+  margin: 0 auto;
+}
