@@ -11,13 +11,14 @@ import studentvisabaner from '../../images/studentvisabaner.png';
 // import { useNavigate } from 'react-router-dom';
 // import Footer from '../footer';
 // import studentvisabaner from '../../images/studentvisabaner.png';
-import usavisa from '../../images/usavisa.png';
+import canadaimg from '../../images/canadaimg.png';
 import acadamic from '../../images/acadamic.png';
 import eligliblityimg from '../../images/eligliblityimg.png';
 import programs from '../../images/programs.png';
 import language from '../../images/language.png';
 import workimage from '../../images/workimage.png';
 import poststudy from '../../images/poststudy.png';
+import eligliblityimage from '../../images/eligliblityimage.png';
 import jancalender from '../../images/jancalender.svg';
 import sepcalender from '../../images/sepcalender.svg';
 import fulltime from '../../images/fulltime.svg';
@@ -28,6 +29,7 @@ import helthcare from '../../images/helthcare.svg';
 import social from '../../images/social.svg';
 import business from '../../images/business.svg';
 import technology from '../../images/technology.svg';
+import InqueryCommon from '../inquerycommon';
 
 
 
@@ -58,7 +60,7 @@ const Canada = () => {
         <div className="truva-container">
           <div className="usainner-block">
             <div className="usainner-images">
-              <img src={usavisa} alt="usavisa" />
+              <img src={canadaimg} alt="canadaimg" />
             </div>
             <div className="usainner-detail">
               <h2>Canada Student Visa  </h2>
@@ -148,25 +150,33 @@ const Canada = () => {
 
               <div className="main-intack-block">
 
-                <div className="intake-wrapper">
+                <div className="intake-wrapper intect-canada">
                   <div className="intake">
                     <img className="calendar-icon" src={sepcalender} alt="sepcalender" />
                     <div className="intake-text">
-                      <strong>Fall Intake</strong>
-                      Primary and most popular intake
+                      <strong>Fall </strong>
+                      Primary intake across most programs
                     </div>
                   </div>
 
+                  
                   <div className="intake">
                     <img className="calendar-icon" src={jancalender} alt="jancalender" />
                     <div className="intake-text">
-                      <strong>Spring Intake</strong>
-                      Secondary option for many programs
+                      <strong>Winter</strong>
+                      Popular secondary intake
+                    </div>
+                  </div>
+                  <div className="intake">
+                    <img className="calendar-icon" src={jancalender} alt="jancalender" />
+                    <div className="intake-text">
+                      <strong>Spring/Summer</strong>
+                      Available for select courses and institutions
                     </div>
                   </div>
                 </div>
 
-                <p className="note">Additional sessions may be available based on program <br /> and institution.</p>
+                
               </div>
             </div>
 
@@ -183,19 +193,31 @@ const Canada = () => {
               <img src={eligliblityimg} alt="eligliblityimg" />
             </div>
             <div className="text-section">
-              <h2>Eligibility Criteria</h2>
+              <h2>Popular Programs</h2>
               <ul className="criteria-list">
                 <li>
                   <span className="checkmark">✔</span>
-                  Minimum of 50% academic score in previous studies
+              Environmental Science
                 </li>
                 <li>
                   <span className="checkmark">✔</span>
-                  Strong English language proficiency
+                 Business Administration
                 </li>
                 <li>
                   <span className="checkmark">✔</span>
-                  A valid passport and financial proof for tuition and living expenses
+                  Information Technology
+                </li>
+                <li>
+                  <span className="checkmark">✔</span>
+                 Health Studies
+                </li>
+                <li>
+                  <span className="checkmark">✔</span>
+                  Physics & Chemistry
+                </li>
+                <li>
+                  <span className="checkmark">✔</span>
+                  Engineering and Applied Sciences
                 </li>
               </ul>
             </div>
@@ -208,11 +230,11 @@ const Canada = () => {
             <div className="programs-text">
               <h2>Programs Offered</h2>
               <div className="program-list">
-                <div className="program-item"> Associate Degrees</div>
+                <div className="program-item"> Undergraduate Diplomas & Advanced Diplomas</div>
                 <div className="program-item"> Bachelor’s Degrees</div>
-                <div className="program-item"> Certificate & Diploma Programs</div>
                 <div className="program-item"> Master’s Degrees</div>
-                <div className="program-item"> Doctoral Programs</div>
+                <div className="program-item"> Postgraduate Diplomas & Graduate Certificates</div>
+               
               </div>
             </div>
             <div className="programs-image">
@@ -225,29 +247,26 @@ const Canada = () => {
 
       <div className="main-language-section">
         <div className="truva-container">
-          <div class="language-section">
-            <div class="language-image">
+          <div className="language-section">
+            <div className="language-image">
               <img src={language} alt="language" />
             </div>
-            <div class="language-text">
+            <div className="language-text">
               <h2>Language Proficiency <br /> Requirements</h2>
               <table>
                 <tr>
                   <td>IELTS</td>
-                  <td><strong>6.5 overall</strong></td>
+                  <td><strong>6.0 overall (varies by program)</strong></td>
                 </tr>
                 <tr>
                   <td>TOEFL iBT</td>
                   <td><strong>80+</strong></td>
                 </tr>
                 <tr>
-                  <td>PTE Academic</td>
-                  <td><strong>53+</strong></td>
+                  <td>PTE </td>
+                  <td><strong>60+</strong></td>
                 </tr>
-                <tr>
-                  <td>Duolingo</td>
-                  <td><strong>105+</strong></td>
-                </tr>
+              
               </table>
             </div>
           </div>
@@ -272,7 +291,8 @@ const Canada = () => {
                 <div className="icon-circle hourglass"><img src={fulltime} alt="fulltime" /></div>
                 <div>
                   <strong className="work-title">Full Time</strong><br />
-                  <span className="work-subtext">During vacation or semester breaks</span>
+                  <span className="work-subtext">giving you a chance to gain professional
+experience and manage living expenses.</span>
                 </div>
               </div>
             </div>
@@ -284,66 +304,58 @@ const Canada = () => {
         </div>
       </div>
 
-      <div className="popularstudy-main">
+      
+
+      <div className="post-study">
         <div className="truva-container">
-          <div class="fields-inner">
-            <h2>Popular Fields Of Study</h2>
-            <div class="fields-grid">
-              <div class="field-card">
-                <img src={computerscienc} alt="computerscienc" />
-                <p>Computer Science<br />& <br /> IT</p>
-              </div>
-              <div class="field-card">
-                <img src={human} alt="human" />
-                <p>Arts<br />& <br /> Humanities</p>
-              </div>
-              <div class="field-card">
-                <img src={helthcare} alt="helthcare" />
-                <p>Healthcare<br />& <br /> Medicine</p>
-              </div>
-              <div class="field-card">
-                <img src={social} alt="social" />
-                <p>Social Sciences</p>
-              </div>
-              <div class="field-card">
-                <img src={business} alt="business" />
-                <p>Business<br />& <br /> Management</p>
-              </div>
-              <div class="field-card">
-                <img src={technology} alt="technology" />
-                <p>Engineering<br />& <br /> Technology</p>
-              </div>
+          <div className="post-study-inner">
+            <div className="post-study-image">
+              <img src={poststudy} alt="poststudy" />
+            </div>
+            <div className="post-study-text">
+              <h2>Visa & Immigration
+Notes</h2>
+              <p>
+                Canada’s <b>Student Direct Stream (SDS)</b> facilitates faster
+visa processing for eligible students. Under this program,
+students are typically required to purchase a <b>Guaranteed
+Investment Certificate (GIC)</b> and pay the first year of tuition fees in advance.
+              </p>
+              <p>Graduates can apply for a <b>Post-Graduation Work Permit (PGWP)</b>, which allows them to work in Canada for up to three years after completing their studies.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="post-study">
+
+      <div className="eligliblity-section">
         <div className="truva-container">
-          <div class="post-study-inner">
-            <div class="post-study-image">
-              <img src={poststudy} alt="poststudy" />
-            </div>
-            <div class="post-study-text">
-              <h2>Post Study Options</h2>
-              <p>
-                Graduates can apply for OPT (Optional Practical Training), allowing up to 12 months of work in the USA.
-                STEM graduates may be eligible for an additional 24-month extension.
-                Many students leverage this period to secure long-term employment or transition to work-based visa categories.
-              </p>
-            </div>
-          </div>
+          <div class="eligliblity-data">
+    <div class="text-section">
+      <h2>Eligibility Requirements</h2>
+      <ul>
+        <li>Minimum academic score of 50% in previous studies <br /><span class="note">(varies by program and institution)</span></li>
+        <li>Valid passport and sufficient financial proof</li>
+        <li>Acceptance letter from a recognized institution</li>
+      </ul>
+    </div>
+    <div class="image-section">
+      <img src={eligliblityimage} alt="eligliblityimage" />
+    </div>
+  </div>
         </div>
       </div>
       <div className="estementcost">
         <div className="truva-container">
           <div className="eastement-inner">
             <h2>Estimated Monthly Living Costs</h2>
-            <p>USD 800 to USD 1,500 depending on city and lifestyle – includes housing, food, local travel, and miscellaneous expenses.</p>
+            <p>Living costs range from CAD 1,000 to CAD 3,000 per month depending on your location, lifestyle, and accommodation. This covers food, rent, transport, insurance, and miscellaneous expenses.</p>
           </div>
         </div>
       </div>
-
+<div>
+<InqueryCommon/>
+</div>
 
 
       <Footer />

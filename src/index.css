@@ -870,11 +870,11 @@ height: 50px;
 
     .intake {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       margin-bottom: 20px;
    
     }
- .intake:first-child{
+ .intake:not(:last-child){
   margin-bottom: 80px;
  }
     .calendar-icon {
@@ -899,7 +899,7 @@ height: 50px;
       margin-top: 20px;
  
         color: var(--secondary-color);
-      font-size: var(--font-18px);
+      font-size: var(--font-22px);
     }
 .main-intack-block{
   margin-left: 100px;
@@ -928,6 +928,18 @@ height: 50px;
     position: absolute;
     left: 33px;
     top: 66px;
+    height: 80px;
+    width: 2px;
+    border-left: 2px dotted #111111;
+}
+.intect-canada{
+  position: relative;
+}
+.intect-canada::after {
+    content: "";
+    position: absolute;
+    left: 33px;
+    top: 213px;
     height: 80px;
     width: 2px;
     border-left: 2px dotted #111111;
@@ -975,7 +987,7 @@ height: 50px;
   color: var(--secondary-color);
 }
 .eligliblity-main .criteria-list li:not(:last-child){
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .eligliblity-main .checkmark {
   color: var(--primary-color);
@@ -1077,8 +1089,16 @@ height: 50px;
 .language-text h2 {
    color: var(--blue-color);
     font-size: var(--font-66px);
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     font-weight: 600;
+}
+.language-text-line{
+  margin-bottom: 40px;
+}
+.language-text p{
+  font-size: 20px;
+  color: var(--secondary-color);
+  margin-top: 5px;
 }
 
 .language-text table {
@@ -1124,6 +1144,7 @@ height: 50px;
   font-size: 20px;
   margin-bottom: 30px;
    margin-bottom: 50px;
+   color: var(--secondary-color);
 }
 
 .work-item {
@@ -1272,4 +1293,130 @@ grid-template-columns: 800px auto;
 .main-navbar-data a.active.nav-link{
   color: var(--blue-color);
   font-weight: 600;
+}
+
+/* eligliblity-data */
+
+
+
+.eligliblity-section{
+  padding: 0 0 120px 0;
+}
+
+.eligliblity-data{
+  display: grid;
+  align-items: center;
+ grid-template-columns: 850px auto;
+  padding: 40px;
+  gap: 40px;
+}
+
+.text-section {
+  flex: 1;
+}
+
+.text-section h2 {
+   color: var(--blue-color);
+    font-size: var(--font-66px);
+   margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.text-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 1.8;
+    font-size: var(--font-22px);
+  color: var(--secondary-color);
+}
+.text-section ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.text-section .note {
+  font-size: var(--font-22px);
+  color: var(--secondary-color);
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image-section img {
+  border-radius: 16px;
+}
+
+.intek-uk h1{
+  margin-bottom: 0px;
+}
+.intek-uk .note-title {
+    color: var(--secondary-color);
+    font-size: var(--font-22px);
+    margin-bottom: 50px;
+}
+
+/* visa Option */
+
+.visaoption-section{
+  padding: 0 0 120px 0;
+}
+
+.visa-inneroption {
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns:800px  auto ;
+  padding: 40px;
+  gap: 200px;
+
+}
+
+.visa-text {
+  flex: 1;
+}
+
+.visa-titleuk h2 {
+ color: var(--blue-color);
+    font-size: var(--font-66px);
+   margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.visa-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.icon {
+  font-size: 2rem;
+ color: var(--blue-color);
+  width: 70px;
+}
+
+.visa-item h3 {
+  font-size: var(--font-30px);
+  color: var(--blue-color);
+  margin: 0 0 6px;
+   font-weight: 600;
+}
+
+.visa-item p {
+  font-size: var(--font-20px);
+  line-height: 1.5;
+  margin: 0;
+  color: var(--secondary-color);
+}
+
+.visa-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.visa-image img {
+  width: 100%;
+  border-radius: 16px;
+  height: 471px;
 }

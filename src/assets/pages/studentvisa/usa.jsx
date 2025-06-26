@@ -19,6 +19,7 @@ import helthcare from '../../images/helthcare.svg';
 import social from '../../images/social.svg';
 import business from '../../images/business.svg';
 import technology from '../../images/technology.svg';
+import InqueryCommon from '../inquerycommon';
 
 
 
@@ -319,9 +320,15 @@ const Usa = () => {
     </div>
   </div>
 </div>
+
+
+
       </div>
 
 
+<div>
+<InqueryCommon/>
+</div>
 
       <Footer />
     </>
