@@ -18,6 +18,12 @@ import International from './assets/pages/International';
 import Domestic from './assets/pages/Domestic';
 import CanadaWorkVisa from './assets/pages/canadaworkvisa';
 import CanadaProgram from './assets/pages/canadaprogram';
+import Singapore from './assets/pages/International/Singapore';
+import Malaysia from './assets/pages/International/Malaysia';
+import Turkey from './assets/pages/International/Turkey';
+import Bali from './assets/pages/International/Bali';
+import Japan from './assets/pages/International/Japan';
+import Dubai from './assets/pages/International/Dubai';
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -41,6 +47,12 @@ function App() {
         <Route path="/Domestic" element={<Domestic/>} />
         <Route path="/CanadaWorkVisa" element={<CanadaWorkVisa/>} />
         <Route path="/canadaprogram" element={<CanadaProgram/>} />
+        <Route path="/singapore" element={<Singapore />} />
+        <Route path="/malaysia" element={<Malaysia />} />
+        <Route path="/turkey" element={<Turkey/>} />
+        <Route path="/bali" element={<Bali/>} />
+        <Route path="/japan" element={<Japan/>} />
+        <Route path="/dubai" element={<Dubai/>} />
         {/* Add other routes like /contactus, /services, etc. here */}
       </Routes>
     </Router>

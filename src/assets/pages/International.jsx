@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Footer from './footer';
 import studentvisabaner from '../images/studentvisabaner.png';
 import InqueryCommon from './inquerycommon';
 import visitarvisa from '../images/visitarvisa.png';
@@ -13,6 +12,7 @@ import bali from '../images/bali.png';
 import malaysia from '../images/malaysia.png';
 import turkey from '../images/turkey.png';
 import rightarrow from '../images/rightarrow.svg';
+import Footer from './footer';
 
 const International = () => {
 
@@ -49,7 +49,7 @@ const International = () => {
       <h3>Singapore </h3>
       <p> A futuristic skyline, shopping bliss, and family-friendly attractions await in this island city-state.</p>
       {/* <button   onClick={() => navigate('/InvestmentServices')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={righttoparrow} alt="righttoparrow" /></span></button> */}
-      <button onClick={() => navigate('/studentvisa')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
+      <button onClick={() => navigate('/singapore')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
     </div>
     </div>
         <div className="ourservice-inner-card-data">
@@ -62,7 +62,7 @@ const International = () => {
       <h3>Dubai </h3>
       <p> Luxury, adventure, and desert thrills combine in this dynamic Middle Eastern gem.</p>
       {/* <button   onClick={() => navigate('/InvestmentServices')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={righttoparrow} alt="righttoparrow" /></span></button> */}
-      <button onClick={() => navigate('/visitorvisa')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
+      <button onClick={() => navigate('/dubai')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
     </div>
       
     </div>
@@ -76,7 +76,7 @@ const International = () => {
       <h3>Japan </h3>
       <p>  Culture, technology, and cherry blossoms form the perfect travel experience.</p>
       {/* <button   onClick={() => navigate('/InvestmentServices')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={righttoparrow} alt="righttoparrow" /></span></button> */}
-      <button onClick={() => navigate('/immigrate')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
+      <button onClick={() => navigate('/japan')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
     </div>
       
     </div>
@@ -91,7 +91,7 @@ const International = () => {
       <p>Serene beaches, spiritual temples, and lush nature for soul-soothing escapes.
 </p>
       {/* <button   onClick={() => navigate('/InvestmentServices')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={righttoparrow} alt="righttoparrow" /></span></button> */}
-      <button onClick={() => navigate('/studentvisa')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
+      <button onClick={() => navigate('//bali')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
     </div>
     </div>
         <div className="ourservice-inner-card-data">
@@ -104,7 +104,7 @@ const International = () => {
       <h3>Malaysia</h3>
       <p> A cultural mosaic of cuisines, skyscrapers, and tropical beauty.</p>
       {/* <button   onClick={() => navigate('/InvestmentServices')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={righttoparrow} alt="righttoparrow" /></span></button> */}
-      <button onClick={() => navigate('/visitorvisa')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
+      <button onClick={() => navigate('/malaysia')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
     </div>
       
     </div>
@@ -118,7 +118,7 @@ const International = () => {
       <h3>Turkey</h3>
       <p> Where East meets West - explore ancient ruins, bazaars, and exotic cuisine.</p>
       {/* <button   onClick={() => navigate('/InvestmentServices')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={righttoparrow} alt="righttoparrow" /></span></button> */}
-      <button onClick={() => navigate('/immigrate')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
+      <button onClick={() => navigate('/turkey')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
     </div>
       
     </div>
