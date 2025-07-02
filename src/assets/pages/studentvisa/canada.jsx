@@ -12,23 +12,19 @@ import studentvisabaner from '../../images/studentvisabaner.png';
 // import Footer from '../footer';
 // import studentvisabaner from '../../images/studentvisabaner.png';
 import canadaimg from '../../images/canadaimg.png';
-import acadamic from '../../images/acadamic.png';
-import eligliblityimg from '../../images/eligliblityimg.png';
-import programs from '../../images/programs.png';
-import language from '../../images/language.png';
-import workimage from '../../images/workimage.png';
-import poststudy from '../../images/poststudy.png';
-import eligliblityimage from '../../images/eligliblityimage.png';
+import canadamap from '../../images/canadamap.png';
+import canadalanguage from '../../images/canadalanguage.png';
 import jancalender from '../../images/jancalender.svg';
 import sepcalender from '../../images/sepcalender.svg';
 import fulltime from '../../images/fulltime.svg';
 import timeclock from '../../images/timeclock.svg';
-import computerscienc from '../../images/computerscienc.svg';
-import human from '../../images/human.svg';
-import helthcare from '../../images/helthcare.svg';
-import social from '../../images/social.svg';
-import business from '../../images/business.svg';
-import technology from '../../images/technology.svg';
+import businessadministration from '../../images/businessadministration.svg';
+import environmentalscience from '../../images/environmentalscience.svg';
+import informationtechnology from '../../images/informationtechnology.svg';
+import healthstudies from '../../images/healthstudies.svg';
+import appliedsciences from '../../images/appliedsciences.svg';
+import physics from '../../images/physics.svg';
+
 import InqueryCommon from '../inquerycommon';
 
 
@@ -141,115 +137,133 @@ const Canada = () => {
           </div>
         </div>
       </div>
-      <div className="academic-intact-main">
+
+      <div className="programs-offered">
         <div className="truva-container">
-          <div className="academic-intact">
-            <div className="content">
-              <h1>Academic Intakes</h1>
-
-
-              <div className="main-intack-block">
-
-                <div className="intake-wrapper intect-canada">
-                  <div className="intake">
-                    <img className="calendar-icon" src={sepcalender} alt="sepcalender" />
-                    <div className="intake-text">
-                      <strong>Fall </strong>
-                      Primary intake across most programs
-                    </div>
-                  </div>
-
-                  
-                  <div className="intake">
-                    <img className="calendar-icon" src={jancalender} alt="jancalender" />
-                    <div className="intake-text">
-                      <strong>Winter</strong>
-                      Popular secondary intake
-                    </div>
-                  </div>
-                  <div className="intake">
-                    <img className="calendar-icon" src={jancalender} alt="jancalender" />
-                    <div className="intake-text">
-                      <strong>Spring/Summer</strong>
-                      Available for select courses and institutions
-                    </div>
-                  </div>
-                </div>
-
-                
-              </div>
+          <div className="programs-offered-common">
+            <div className="image-box">
+              <img src={canadamap} alt="USA Map" />
             </div>
+            <div className="content-box">
+              <h2>Programs Offered</h2>
+              <ul>
+                <li>Undergraduate Diplomas & Advanced Diplomas</li>
+                <li>Bachelor’s Degrees</li>
+                <li> Postgraduate Diplomas & Graduate Certificates</li>
+                <li> Master’s Degrees</li>
 
-            <div className="image">
-              <img src={acadamic} alt="acadamic" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="eligliblity-main">
-        <div className="truva-container">
-          <div className="main-grid-common">
-            <div className="image-section">
-              <img src={eligliblityimg} alt="eligliblityimg" />
-            </div>
-            <div className="text-section">
-              <h2>Popular Programs</h2>
-              <ul className="criteria-list">
-                <li>
-                  <span className="checkmark">✔</span>
-              Environmental Science
-                </li>
-                <li>
-                  <span className="checkmark">✔</span>
-                 Business Administration
-                </li>
-                <li>
-                  <span className="checkmark">✔</span>
-                  Information Technology
-                </li>
-                <li>
-                  <span className="checkmark">✔</span>
-                 Health Studies
-                </li>
-                <li>
-                  <span className="checkmark">✔</span>
-                  Physics & Chemistry
-                </li>
-                <li>
-                  <span className="checkmark">✔</span>
-                  Engineering and Applied Sciences
-                </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div className="main-program-section">
+      <div className="acadamic-datablock canadapage-datablock">
         <div className="truva-container">
-          <div className="programs-inner">
-            <div className="programs-text">
-              <h2>Programs Offered</h2>
-              <div className="program-list">
-                <div className="program-item"> Undergraduate Diplomas & Advanced Diplomas</div>
-                <div className="program-item"> Bachelor’s Degrees</div>
-                <div className="program-item"> Master’s Degrees</div>
-                <div className="program-item"> Postgraduate Diplomas & Graduate Certificates</div>
-               
+          <div className="acadamic-grid">
+            <div className="acadamic-detail">
+              <div className="acadamictext-section">
+                <h2>Academic Intakes</h2>
+                <div className="content">
+
+
+
+                  <div className="main-intack-block">
+
+                    <div className="intake-wrapper intect-canada">
+                      <div className="intake">
+                        <img className="calendar-icon" src={sepcalender} alt="sepcalender" />
+                        <div className="intake-text">
+                          <strong>Fall </strong>
+                          Primary intake across most programs
+                        </div>
+                      </div>
+
+
+                      <div className="intake">
+                        <img className="calendar-icon" src={jancalender} alt="jancalender" />
+                        <div className="intake-text">
+                          <strong>Winter</strong>
+                          Popular secondary intake
+                        </div>
+                      </div>
+                      <div className="intake">
+                        <img className="calendar-icon" src={jancalender} alt="jancalender" />
+                        <div className="intake-text">
+                          <strong>Spring/Summer</strong>
+                          Available for select courses and institutions
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="programs-image">
-              <img src={programs} alt="programs" />
+            <div className="eligliblity-detail">
+              <div className="acadamictext-section">
+                <h2>Eligibility Requirements</h2>
+                <div className="text-section">
+                  <ul className="criteria-list">
+                    <li>
+                      <span className="checkmark">✔</span>
+                      Minimum academic score of 50% in previous studies
+                      (varies by program and institution)
+                    </li>
+                    <li>
+                      <span className="checkmark">✔</span>
+                      Valid passport and sufficient financial proof
+                    </li>
+                    <li>
+                      <span className="checkmark">✔</span>
+                      Acceptance letter from a recognized institution
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <div className="popular-fuildmain">
+        <div className="truva-container">
+          <div className="fields-section">
+            <h2 className="title">Popular Programs</h2>
+            <div className="grid">
+              <div className="field">
+                <img src={environmentalscience} alt="Environmental Science" />
+                <p>Environmental Science</p>
+              </div>
+              <div className="field">
+                <img src={businessadministration} alt="Business Administration" />
+                <p>Business Administration</p>
+              </div>
+              <div className="field">
+                <img src={informationtechnology} alt="Information Technology" />
+                <p>Information Technology</p>
+              </div>
+              <div className="field">
+                <img src={healthstudies} alt="Health Studies" />
+                <p>Health Studies</p>
+              </div>
+              <div className="field">
+                <img src={appliedsciences} alt="Engineering and Applied Sciences" />
+                <p>Engineering and Applied Sciences</p>
+              </div>
+              <div className="field">
+                <img src={physics} alt="Physics & Chemistry" />
+                <p>Physics & Chemistry</p>
+              </div>
+            </div>
+          </div>
 
-
-      <div className="main-language-section">
+        </div>
+      </div>
+      <div className="main-language-section canada-language">
         <div className="truva-container">
           <div className="language-section">
             <div className="language-image">
-              <img src={language} alt="language" />
+              <img src={canadalanguage} alt="canadalanguage" />
             </div>
             <div className="language-text">
               <h2>Language Proficiency <br /> Requirements</h2>
@@ -266,83 +280,62 @@ const Canada = () => {
                   <td>PTE </td>
                   <td><strong>60+</strong></td>
                 </tr>
-              
+
               </table>
             </div>
           </div>
         </div>
       </div>
-      <div className="work-main-section">
+      <div className="acadamic-datablock work-opperctunity-canada">
         <div className="truva-container">
-          <div className="work-inner">
-            <div className="work-text">
-              <h2>Work Opportunities</h2>
-              <p>International Students can work</p>
+          <div className="acadamic-grid">
+            <div className="acadamic-detail">
+              <div className="">
 
-              <div className="work-item">
-                <div className="icon-circle"><img src={timeclock} alt="timeclock" /></div>
-                <div>
-                  <strong className="work-title">Up to 20 hours/week</strong><br />
-                  <span className="work-subtext">During academic sessions</span>
+                <div className="work-text">
+                  <h2>Work Opportunities</h2>
+                  <p> Students can work</p>
+
+                  <div className="work-item">
+                    <div className="icon-circle"><img src={timeclock} alt="timeclock" /></div>
+                    <div>
+                      <strong className="work-title">Up to 20 hours/week</strong><br />
+                      <span className="work-subtext">During academic sessions</span>
+                    </div>
+                  </div>
+
+                  <div className="work-item">
+                    <div className="icon-circle hourglass"><img src={fulltime} alt="fulltime" /></div>
+                    <div>
+                      <strong className="work-title">Full Time</strong><br />
+                      <span className="work-subtext">giving you a chance to gain professional
+                        experience and manage living expenses.</span>
+                    </div>
+                  </div>
                 </div>
               </div>
+            </div>
+            <div className="eligliblity-detail">
+              <div className="acadamictext-section">
+                <h2>Visa & Immigration
+                  Notes</h2>
+                <div className="post-study-text">
 
-              <div className="work-item">
-                <div className="icon-circle hourglass"><img src={fulltime} alt="fulltime" /></div>
-                <div>
-                  <strong className="work-title">Full Time</strong><br />
-                  <span className="work-subtext">giving you a chance to gain professional
-experience and manage living expenses.</span>
+                  <p>
+                    Canada’s Student Direct Stream (SDS) facilitates faster
+                    visa processing for eligible students. Under this program,
+                    students are typically required to purchase a <b>Guaranteed
+                      Investment Certificate (GIC)</b> and pay the first year of
+                    tuition fees in advance.
+
+                  </p>
+                  <p>Graduates can apply for a <b>Post-Graduation Work Permit
+                    (PGWP)</b>, which allows them to work in Canada for up to
+                    three years after completing their studies.</p>
                 </div>
               </div>
             </div>
-
-            <div className="work-image">
-              <img src={workimage} alt="workimage" />
-            </div>
           </div>
-        </div>
-      </div>
-
-      
-
-      <div className="post-study">
-        <div className="truva-container">
-          <div className="post-study-inner">
-            <div className="post-study-image">
-              <img src={poststudy} alt="poststudy" />
-            </div>
-            <div className="post-study-text">
-              <h2>Visa & Immigration
-Notes</h2>
-              <p>
-                Canada’s <b>Student Direct Stream (SDS)</b> facilitates faster
-visa processing for eligible students. Under this program,
-students are typically required to purchase a <b>Guaranteed
-Investment Certificate (GIC)</b> and pay the first year of tuition fees in advance.
-              </p>
-              <p>Graduates can apply for a <b>Post-Graduation Work Permit (PGWP)</b>, which allows them to work in Canada for up to three years after completing their studies.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div className="eligliblity-section">
-        <div className="truva-container">
-          <div class="eligliblity-data">
-    <div class="text-section">
-      <h2>Eligibility Requirements</h2>
-      <ul>
-        <li>Minimum academic score of 50% in previous studies <br /><span class="note">(varies by program and institution)</span></li>
-        <li>Valid passport and sufficient financial proof</li>
-        <li>Acceptance letter from a recognized institution</li>
-      </ul>
-    </div>
-    <div class="image-section">
-      <img src={eligliblityimage} alt="eligliblityimage" />
-    </div>
-  </div>
         </div>
       </div>
       <div className="estementcost">
@@ -353,9 +346,34 @@ Investment Certificate (GIC)</b> and pay the first year of tuition fees in advan
           </div>
         </div>
       </div>
-<div>
-<InqueryCommon/>
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div>
+        <InqueryCommon />
+      </div>
 
 
       <Footer />

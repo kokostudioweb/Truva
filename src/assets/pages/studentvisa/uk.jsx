@@ -10,6 +10,8 @@ import language from '../../images/language.png';
 import workimage from '../../images/workimage.png';
 import poststudy from '../../images/poststudy.png';
 import visaoption from '../../images/visaoption.png';
+import ukmap from '../../images/ukmap.png';
+import uklanguage from '../../images/uklanguage.png';
 import jancalender from '../../images/jancalender.svg';
 import sepcalender from '../../images/sepcalender.svg';
 import fulltime from '../../images/fulltime.svg';
@@ -17,13 +19,16 @@ import timeclock from '../../images/timeclock.svg';
 import recydency from '../../images/recydency.svg';
 import spouseicon from '../../images/spouseicon.svg';
 import graguateicon from '../../images/graguateicon.svg';
-import computerscienc from '../../images/computerscienc.svg';
-import human from '../../images/human.svg';
-import helthcare from '../../images/helthcare.svg';
-import social from '../../images/social.svg';
-import business from '../../images/business.svg';
-import technology from '../../images/technology.svg';
-import InqueryCommon from '../inquerycommon';
+import socialscience from '../../images/socialscience.svg';
+import medicine from '../../images/medicine.svg';
+import computer from '../../images/computer.svg';
+import Businessimg from '../../images/Businessimg.svg';
+import engtechnology from '../../images/engtechnology.svg';
+import studies from '../../images/studies.svg';
+import workvisa from '../../images/workvisa.svg';
+import prvisa from '../../images/prvisa.svg';
+import spousevisa from '../../images/spousevisa.svg';
+
 
 
 
@@ -124,115 +129,149 @@ const Uk = () => {
           </div>
         </div>
       </div>
-      <div className="academic-intact-main">
+      <div className="programs-offered">
         <div className="truva-container">
-          <div className="academic-intact">
-            <div className="content intek-uk">
-              <h1>Academic Intakes</h1>
-                  <p className="note-title">UK universities offer multiple intake options to <br />
-accommodate international students.</p>
-
-
-              <div className="main-intack-block">
-
-                <div className="intake-wrapper">
-                  <div className="intake">
-                    <img className="calendar-icon" src={sepcalender} alt="sepcalender" />
-                    <div className="intake-text">
-                      <strong>Fall</strong>
-                     Main intake
-                    </div>
-                  </div>
-
-                  <div className="intake">
-                    <img className="calendar-icon" src={jancalender} alt="jancalender" />
-                    <div className="intake-text">
-                      <strong>Winter</strong>
-                     Secondary intake
-                    </div>
-                  </div>
-                </div>
-
-                <p className="note">Some courses may offer additional intakes in May or 
-April depending on the institution.</p>
-              </div>
+          <div className="programs-offered-common">
+            <div className="image-box">
+              <img src={ukmap} alt="UK Map" />
             </div>
+            <div className="content-box">
+              <h2>Programs Offered</h2>
+              <ul>
+                <li>Diploma & Certificate Programs</li>
+                <li>Bachelor's Degree (BA/BSc)</li>
+                <li> Master's Degree (MA/MSc)</li>
+                <li> Doctoral Degree (PhD)</li>
+                <li> Foundation Courses</li>
 
-            <div className="image">
-              <img src={acadamic} alt="acadamic" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="eligliblity-main">
-        <div className="truva-container">
-          <div className="main-grid-common">
-            <div className="image-section">
-              <img src={eligliblityimg} alt="eligliblityimg" />
-            </div>
-            <div className="text-section">
-              <h2>Popular Programs
-in the UK</h2>
-              <ul className="criteria-list">
-                <li>
-                  <span className="checkmark">✔</span>
-                Engineering & Technology
-                </li>
-                <li>
-                  <span className="checkmark">✔</span>
-                  Business & Management
-                </li>
-                <li>
-                  <span className="checkmark">✔</span>
-                 Computer Science & IT
-                </li>
-                <li>
-                  <span className="checkmark">✔</span>
-              Medicine & Healthcare
-                </li>
-                <li>
-                  <span className="checkmark">✔</span>
-                 Environmental Studies
-                </li>
-                <li>
-                  <span className="checkmark">✔</span>
-                 Social Sciences & Humanities
-                </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div className="main-program-section">
+      <div className="acadamic-datablock  canadapage-datablock">
         <div className="truva-container">
-          <div className="programs-inner">
-            <div className="programs-text">
-              <h2>Types of Degrees 
-Offered</h2>
-              <div className="program-list">
-                <div className="program-item"> Foundation Courses</div>
-                <div className="program-item"> Bachelor's Degree (BA/BSc)</div>
-                <div className="program-item"> Diploma & Certificate Programs</div>
-                <div className="program-item"> Master's Degree (MA/MSc)</div>
-                <div className="program-item"> Doctoral Degree (PhD)</div>
+          <div className="acadamic-grid">
+            <div className="acadamic-detail">
+              <div className="">
+
+
+                <div className="content intek-uk">
+                  <h1>Academic Intakes</h1>
+                  <p className="note-title">UK universities offer multiple intake options to <br />
+                    accommodate international students.</p>
+
+
+                  <div className="main-intack-block">
+
+                    <div className="intake-wrapper">
+                      <div className="intake">
+                        <img className="calendar-icon" src={sepcalender} alt="sepcalender" />
+                        <div className="intake-text">
+                          <strong>Fall  </strong>
+                          Main intake
+                        </div>
+                      </div>
+
+
+                      <div className="intake">
+                        <img className="calendar-icon" src={jancalender} alt="jancalender" />
+                        <div className="intake-text">
+                          <strong>Winter</strong>
+                          Secondary intake
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <p className="note">Some courses may offer additional intakes in <b>May or
+                      April</b> depending on the institution.</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="programs-image">
-              <img src={programs} alt="programs" />
+            <div className="eligliblity-detail">
+              <div className="">
+
+                <div className="work-text">
+                  <h2>Part-Time Work
+                    Opportunities</h2>
+                  <p> International students on a UK Student
+                    Visa are allowed to work.</p>
+
+                  <div className="work-item">
+                    <div className="icon-circle"><img src={timeclock} alt="timeclock" /></div>
+                    <div>
+                      <strong className="work-title">Up to 20 hours/week</strong><br />
+                      <span className="work-subtext">during academic terms</span>
+                    </div>
+                  </div>
+
+                  <div className="work-item">
+                    <div className="icon-circle hourglass"><img src={fulltime} alt="fulltime" /></div>
+                    <div>
+                      <strong className="work-title">Full Time</strong><br />
+                      <span className="work-subtext">This provides students with valuable
+                        experience and financial support while
+                        studying.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <div className="popular-fuildmain">
+              <div className="truva-container">
+                <div className="fields-section">
+                  <h2 className="title">Popular Programs</h2>
+                  <div className="grid">
+                    <div className="field">
+                      <img src={engtechnology} alt="engtechnology" />
+                      <p>Engineering & Technology</p>
+                    </div>
+                    <div className="field">
+                      <img src={Businessimg} alt="Businessimg" />
+                      <p>Business & Management</p>
+                    </div>
+                    <div className="field">
+                      <img src={computer} alt="computer" />
+                      <p>Computer Science & IT</p>
+                    </div>
+                    <div className="field">
+                      <img src={medicine} alt="medicine" />
+                      <p>Medicine & Healthcare</p>
+                    </div>
+                    <div className="field">
+                      <img src={studies} alt="studies" />
+                      <p>Environmental Studies</p>
+                    </div>
+                    <div className="field">
+                      <img src={socialscience} alt="socialscience" />
+                      <p>Social Sciences & Humanities</p>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+            </div>
 
-
-      <div className="main-language-section">
+  <div className="main-language-section canada-language">
         <div className="truva-container">
           <div className="language-section">
             <div className="language-image">
-              <img src={language} alt="language" />
+              <img src={uklanguage} alt="uklanguage" />
             </div>
             <div className="language-text">
-              <h2>Language Proficiency <br /> Requirements</h2>
+              <h2>Eligibility Criteria</h2>
+              <p className='note-title'>Academic entry requirements vary by institution and course,
+but students are generally expected to maintain a strong
+academic record with at least 50% marks or equivalent in 
+previous education.</p>
+              <h3>Language Proficiency Requirements</h3>
+              <p className='note-title'>Applicants are required to demonstrate English language proficiency through one of the following</p>
+
               <table>
                 <tr>
                   <td>IELTS</td>
@@ -246,120 +285,76 @@ Offered</h2>
                   <td>PTE </td>
                   <td><strong>50+</strong></td>
                 </tr>
-              
+
               </table>
               <p><b>Note:</b> Specific course and institution requirements
-          may differ.</p>
+                may differ.</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="work-main-section">
-        <div className="truva-container">
-          <div className="work-inner">
-            <div className="work-text">
-              <h2>Part-Time Work 
-Opportunities</h2>
-              <p>International students on a UK Student
-Visa are allowed to work.</p>
-
-              <div className="work-item">
-                <div className="icon-circle"><img src={timeclock} alt="timeclock" /></div>
-                <div>
-                  <strong className="work-title">Up to 20 hours/week</strong><br />
-                  <span className="work-subtext">during academic terms</span>
-                </div>
-              </div>
-
-              <div className="work-item">
-                <div className="icon-circle hourglass"><img src={fulltime} alt="fulltime" /></div>
-                <div>
-                  <strong className="work-title">Full Time</strong><br />
-                  <span className="work-subtext">This provides students with valuable
-experience and financial support while
-studying.</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="work-image">
-              <img src={workimage} alt="workimage" />
-            </div>
-          </div>
-        </div>
-      </div>
-.
-     
-
-      <div className="post-study">
-        <div className="truva-container">
-          <div className="post-study-inner">
-            <div className="post-study-image">
-              <img src={poststudy} alt="poststudy" />
-            </div>
-            <div className="post-study-text">
-              <h2>Eligibility Criteria</h2>
-              <p>
-                Academic entry requirements vary by institution and course,
-but students are generally expected to maintain a strong
-academic record with at least 50% marks or equivalent in 
-previous education.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-<div className="visaoption-section">
+<div className="main-visaoption">
   <div className="truva-container">
-    <div className="visa-titleuk">
-      <h2>Post-Study Opportunities<br />& Visa Options</h2>
-    </div>
-     <div class="visa-inneroption">
-    <div class="visa-text">
-      
-
-      <div class="visa-item">
-        <div class="icon"><img src={graguateicon} alt="graguateicon" /></div>
-        <div>
-          <h3>Graduate Route (Post-Study Work Visa)</h3>
-          <p>International students who complete an eligible UK degree can stay and work (or look for work) for up to 2 years (or 3 years for PhD graduates) after graduation without needing sponsorship.</p>
+ <div class="visamain-detail">
+  <div class="visa-section-main">
+    <h2 class="section-title">Post-Study Opportunities & Visa Options</h2>
+    <div class="visa-gridblock">
+      <div class="visa-card">
+        <div className='visa-card-image'>
+          <img src={workvisa} alt="Graduate Route" />
         </div>
+        <h3>Graduate Route (Post-Study Work Visa)</h3>
+        <p>
+          International students who complete an eligible UK degree can stay and work (or look for work)
+          for up to 2 years (or 3 years for PhD graduates) after graduation without needing sponsorship.
+        </p>
       </div>
-
-      <div class="visa-item">
-        <div class="icon"><img src={spouseicon} alt="spouseicon" /></div>
-        <div>
-          <h3>Spouse and Dependent Visa</h3>
-          <p>Students enrolled in postgraduate programs of 9 months or more may bring their dependents. Spouses may be eligible to work full-time during their stay in the UK.</p>
+      <div class="visa-card">
+        <div className="visa-card-image">
+        <img src={spousevisa} alt="Spouse and Dependent Visa" />
         </div>
+        <h3>Spouse and Dependent Visa</h3>
+        <p>
+          Students enrolled in postgraduate programs of 9 months or more may bring their dependents.
+          Spouses may be eligible to work full-time during their stay in the UK.
+        </p>
       </div>
-
-      <div class="visa-item">
-        <div class="icon"><img src={recydency} alt="recydency" /></div>
-        <div>
-          <h3>Path to Permanent Residency</h3>
-          <p>After gaining work experience under a valid work visa (such as the Skilled Worker visa), international graduates may qualify for settlement options depending on duration and eligibility.</p>
+      <div class="visa-card">
+        <div className="visa-card-image">
+        <img src={prvisa} alt="Path to Permanent Residency" />
         </div>
+        <h3>Path to Permanent Residency</h3>
+        <p>
+          After gaining work experience under a valid work visa (such as the Skilled Worker visa),
+          international graduates may qualify for settlement options depending on duration and eligibility.
+        </p>
       </div>
-    </div>
-
-    <div class="visa-image">
-      <img src={visaoption} alt="visaoption" />
     </div>
   </div>
+</div>
+
   </div>
 </div>
 
 
-      <div className="estementcost">
+ <div className="estementcost">
         <div className="truva-container">
           <div className="eastement-inner">
-            <h2>Estimated Monthly Living Costs</h2>
+            <h2>Estimated Monthly Cost of Living</h2>
             <p>Living costs in the UK range from GBP 800 to GBP 1,500 per month, depending on your location and lifestyle. This includes accommodation, meals, transportation, utilities, and personal expenses.</p>
           </div>
         </div>
       </div>
+ 
+
+
+
+
+
+
+
+
+   
 
 
 

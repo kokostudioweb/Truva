@@ -5,6 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink, useNavigate } from 'react-router-dom';
 import truvaheaderlogo from './assets/images/truvaheaderlogo.svg';
+import domesticheader from './assets/images/domesticheader.svg';
+import internactionheader from './assets/images/internactionheader.svg';
 
 const Header = () => {
    const navigate = useNavigate();
@@ -33,8 +35,8 @@ const Header = () => {
                 <NavDropdown.Item as={NavLink} to="/visitorvisa" className={getNavLinkClass}>Visitor Visa</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/immigrate" className={getNavLinkClass}>Immigrate</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link as={NavLink} to="/immigrate" className={getNavLinkClass}>Immigrate</Nav.Link>
-              <Nav.Link as={NavLink} to="/blogs" className={getNavLinkClass}>Tour & Travels</Nav.Link>
+              <Nav.Link as={NavLink} to="/domestic" className={getNavLinkClass}> <span><img src={domesticheader} alt="domesticheader" /></span> Domestic</Nav.Link>
+              <Nav.Link as={NavLink} to="/International" className={getNavLinkClass}> <span><img src={internactionheader} alt="internactionheader" /></span> International</Nav.Link>
                <button className="blue-button" onClick={() => navigate('/contactus')}>
         Contact Us
       </button>

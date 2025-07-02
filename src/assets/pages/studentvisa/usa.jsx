@@ -3,22 +3,18 @@ import { useNavigate } from 'react-router-dom';
 import Footer from '../footer';
 import studentvisabaner from '../../images/studentvisabaner.png';
 import usavisa from '../../images/usavisa.png';
-import acadamic from '../../images/acadamic.png';
-import eligliblityimg from '../../images/eligliblityimg.png';
-import programs from '../../images/programs.png';
-import language from '../../images/language.png';
-import workimage from '../../images/workimage.png';
-import poststudy from '../../images/poststudy.png';
+import languageimg from '../../images/languageimg.png';
+import usamap from '../../images/usamap.png';
 import jancalender from '../../images/jancalender.svg';
 import sepcalender from '../../images/sepcalender.svg';
 import fulltime from '../../images/fulltime.svg';
 import timeclock from '../../images/timeclock.svg';
-import computerscienc from '../../images/computerscienc.svg';
-import human from '../../images/human.svg';
-import helthcare from '../../images/helthcare.svg';
-import social from '../../images/social.svg';
-import business from '../../images/business.svg';
-import technology from '../../images/technology.svg';
+import computer from '../../images/computer.svg';
+import medicine from '../../images/medicine.svg';
+import socialscience from '../../images/socialscience.svg';
+import Businessimg from '../../images/Businessimg.svg';
+import engtechnology from '../../images/engtechnology.svg';
+import artimg from '../../images/artimg.svg';
 import InqueryCommon from '../inquerycommon';
 
 
@@ -116,219 +112,228 @@ const Usa = () => {
             </div>
           </div>
         </div>
-        <div className="academic-intact-main">
+        <div className="programs-offered">
           <div className="truva-container">
-            <div className="academic-intact">
-              <div className="content">
-                <h1>Academic Intakes</h1>
-
-
-                <div className="main-intack-block">
-
-                  <div className="intake-wrapper">
-                    <div className="intake">
-                      <img className="calendar-icon" src={sepcalender} alt="sepcalender" />
-                      <div className="intake-text">
-                        <strong>Fall Intake</strong>
-                        Primary and most popular intake
-                      </div>
-                    </div>
-
-                    <div className="intake">
-                      <img className="calendar-icon" src={jancalender} alt="jancalender" />
-                      <div className="intake-text">
-                        <strong>Spring Intake</strong>
-                        Secondary option for many programs
-                      </div>
-                    </div>
-                  </div>
-
-                  <p className="note">Additional sessions may be available based on program <br /> and institution.</p>
-                </div>
+            <div className="programs-offered-common">
+              <div className="image-box">
+                <img src={usamap} alt="USA Map" />
               </div>
-
-              <div className="image">
-                <img src={acadamic} alt="acadamic" />
+              <div className="content-box">
+                <h2>Programs Offered</h2>
+                <ul>
+                  <li> Bachelor's Degrees</li>
+                  <li> Doctoral Programs</li>
+                  <li> Associate Degrees</li>
+                  <li> Master's Degrees</li>
+                  <li> Certificate & Diploma Programs</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-        <div className="eligliblity-main">
+        <div className="acadamic-datablock">
           <div className="truva-container">
-            <div className="main-grid-common">
-             <div className="image-section">
-      <img src={eligliblityimg} alt="eligliblityimg" />
-    </div>
-    <div className="text-section">
-      <h2>Eligibility Criteria</h2>
-      <ul className="criteria-list">
-        <li>
-          <span className="checkmark">✔</span>
-          Minimum of 50% academic score in previous studies
-        </li>
-        <li>
-          <span className="checkmark">✔</span>
-          Strong English language proficiency
-        </li>
-        <li>
-          <span className="checkmark">✔</span>
-          A valid passport and financial proof for tuition and living expenses
-        </li>
-      </ul>
-    </div>
-    </div>
+            <div className="acadamic-grid">
+              <div className="acadamic-detail">
+                <div className="acadamictext-section">
+                  <h2>Academic Intakes</h2>
+                  <div className="content">
+
+
+
+                    <div className="main-intack-block">
+
+                      <div className="intake-wrapper">
+                        <div className="intake">
+                          <img className="calendar-icon" src={sepcalender} alt="sepcalender" />
+                          <div className="intake-text">
+                            <strong>Fall Intake </strong>
+                            Primary and most popular intake
+                          </div>
+                        </div>
+
+
+                        <div className="intake">
+                          <img className="calendar-icon" src={jancalender} alt="jancalender" />
+                          <div className="intake-text">
+                            <strong>Spring Intake</strong>
+                            Secondary option for many programs
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <p className="note">Additional sessions may be available based on program
+                        and institution.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="eligliblity-detail">
+                <div className="acadamictext-section">
+                  <h2>Eligibility Criteria</h2>
+                  <div className="text-section">
+                    <ul className="criteria-list">
+                      <li>
+                        <span className="checkmark">✔</span>
+                        Minimum of 50% academic score in previous studies
+                      </li>
+                      <li>
+                        <span className="checkmark">✔</span>
+                        Strong English language proficiency
+                      </li>
+                      <li>
+                        <span className="checkmark">✔</span>
+                        A valid passport and financial proof for tuition and living expenses
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-<div className="main-program-section">
-  <div className="truva-container">
-     <div className="programs-inner">
-    <div className="programs-text">
-      <h2>Programs Offered</h2>
-      <div className="program-list">
-        <div className="program-item"> Associate Degrees</div>
-        <div className="program-item"> Bachelor’s Degrees</div>
-        <div className="program-item"> Certificate & Diploma Programs</div>
-        <div className="program-item"> Master’s Degrees</div>
-        <div className="program-item"> Doctoral Programs</div>
-      </div>
-    </div>
-    <div className="programs-image">
-      <img src={programs} alt="programs" />
-    </div>
-  </div>
-  </div>
-</div>
-
-
-<div className="main-language-section">
-  <div className="truva-container">
-    <div class="language-section">
-    <div class="language-image">
-      <img src={language} alt="language"/>
-    </div>
-    <div class="language-text">
-      <h2>Language Proficiency <br /> Requirements</h2>
-      <table>
-        <tr>
-          <td>IELTS</td>
-          <td><strong>6.5 overall</strong></td>
-        </tr>
-        <tr>
-          <td>TOEFL iBT</td>
-          <td><strong>80+</strong></td>
-        </tr>
-        <tr>
-          <td>PTE Academic</td>
-          <td><strong>53+</strong></td>
-        </tr>
-        <tr>
-          <td>Duolingo</td>
-          <td><strong>105+</strong></td>
-        </tr>
-      </table>
-    </div>
-  </div>
-  </div>
-</div>
-<div className="work-main-section">
-  <div className="truva-container">
-     <div className="work-inner">
-    <div className="work-text">
-      <h2>Work Opportunities</h2>
-      <p>International Students can work</p>
-
-      <div className="work-item">
-        <div className="icon-circle"><img src={timeclock} alt="timeclock" /></div>
-        <div>
-          <strong className="work-title">Up to 20 hours/week</strong><br/>
-          <span className="work-subtext">During academic sessions</span>
+        <div className="main-language-section">
+          <div className="truva-container">
+            <div className="language-section">
+              <div className="language-image">
+                <img src={languageimg} alt="languageimg" />
+              </div>
+              <div className="language-text">
+                <h2>Language Proficiency <br /> Requirements</h2>
+                <table>
+                  <tr>
+                    <td>IELTS</td>
+                    <td><strong>6.5 overall</strong></td>
+                  </tr>
+                  <tr>
+                    <td>TOEFL iBT</td>
+                    <td><strong>80+</strong></td>
+                  </tr>
+                  <tr>
+                    <td>PTE Academic</td>
+                    <td><strong>53+</strong></td>
+                  </tr>
+                  <tr>
+                    <td>Duolingo</td>
+                    <td><strong>105+</strong></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div className="work-item">
-        <div className="icon-circle hourglass"><img src={fulltime} alt="fulltime" /></div>
-        <div>
-          <strong className="work-title">Full Time</strong><br/>
-          <span className="work-subtext">During vacation or semester breaks</span>
-        </div>
-      </div>
-    </div>
-
-    <div className="work-image">
-      <img src={workimage} alt="workimage"/>
-    </div>
-  </div>
-  </div>
-</div>
-
-<div className="popularstudy-main">
+<div className="popular-fuildmain">
   <div className="truva-container">
-    <div class="fields-inner">
-    <h2>Popular Fields Of Study</h2>
-    <div class="fields-grid">
-      <div class="field-card">
-        <img src={computerscienc} alt="computerscienc" />
-        <p>Computer Science<br/>& <br /> IT</p>
+      <div className="fields-section">
+    <h2 className="title">Popular Fields Of Study</h2>
+    <div className="grid">
+      <div className="field">
+        <img src={computer} alt="Computer Science & IT"/>
+        <p>Computer Science & IT</p>
       </div>
-      <div class="field-card">
-        <img src={human} alt="human" />
-        <p>Arts<br/>& <br /> Humanities</p>
+      <div className="field">
+        <img src={medicine} alt="Medicine & Healthcare"/>
+        <p>Medicine & Healthcare</p>
       </div>
-      <div class="field-card">
-        <img src={helthcare} alt="helthcare" />
-        <p>Healthcare<br/>& <br /> Medicine</p>
-      </div>
-      <div class="field-card">
-        <img src={social} alt="social" />
+      <div className="field">
+        <img src={socialscience} alt="Social Sciences"/>
         <p>Social Sciences</p>
       </div>
-      <div class="field-card">
-        <img src={business} alt="business" />
-        <p>Business<br/>& <br /> Management</p>
+      <div className="field">
+        <img src={Businessimg} alt="Business & Management"/>
+        <p>Business & Management</p>
       </div>
-      <div class="field-card">
-        <img src={technology} alt="technology" />
-        <p>Engineering<br/>& <br /> Technology</p>
+      <div className="field">
+        <img src={engtechnology} alt="Engineering & Technology"/>
+        <p>Engineering & Technology</p>
+      </div>
+      <div className="field">
+        <img src={artimg} alt="Art & Humanities"/>
+        <p>Art & Humanities</p>
       </div>
     </div>
   </div>
+ 
   </div>
 </div>
+  <div className="acadamic-datablock work-opperctunity-detail">
+          <div className="truva-container">
+            <div className="acadamic-grid">
+              <div className="acadamic-detail">
+                <div className="">
+                  
+                  <div className="work-text">
+                <h2>Work Opportunities</h2>
+                <p>International Students can work</p>
 
-<div className="post-study">
-  <div className="truva-container">
-    <div class="post-study-inner">
-    <div class="post-study-image">
-      <img src={poststudy} alt="poststudy" />
-    </div>
-    <div class="post-study-text">
-      <h2>Post Study Options</h2>
-      <p>
-        Graduates can apply for OPT (Optional Practical Training), allowing up to 12 months of work in the USA. 
-        STEM graduates may be eligible for an additional 24-month extension. 
-        Many students leverage this period to secure long-term employment or transition to work-based visa categories.
-      </p>
-    </div>
-  </div>
-  </div>
-</div>
-<div className="estementcost">
-  <div className="truva-container">
-    <div className="eastement-inner">
-      <h2>Estimated Monthly Living Costs</h2>
-      <p>USD 800 to USD 1,500 depending on city and lifestyle – includes housing, food, local travel, and miscellaneous expenses.</p>
-    </div>
-  </div>
-</div>
+                <div className="work-item">
+                  <div className="icon-circle"><img src={timeclock} alt="timeclock" /></div>
+                  <div>
+                    <strong className="work-title">Up to 20 hours/week</strong><br />
+                    <span className="work-subtext">During academic sessions</span>
+                  </div>
+                </div>
+
+                <div className="work-item">
+                  <div className="icon-circle hourglass"><img src={fulltime} alt="fulltime" /></div>
+                  <div>
+                    <strong className="work-title">Full Time</strong><br />
+                    <span className="work-subtext">During vacation or semester breaks</span>
+                  </div>
+                </div>
+              </div>
+                </div>
+              </div>
+              <div className="eligliblity-detail">
+                <div className="acadamictext-section">
+                    <h2>Post Study Options</h2>
+                  <div className="post-study-text">
+              
+                <p>
+                  Graduates can apply for OPT (Optional Practical Training), allowing up to 12 months of work in the USA.
+                  STEM graduates may be eligible for an additional 24-month extension.
+                  Many students leverage this period to secure long-term employment or transition to work-based visa categories.
+                </p>
+              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="estementcost">
+          <div className="truva-container">
+            <div className="eastement-inner">
+              <h2>Estimated Monthly Living Costs</h2>
+              <p>USD 800 to USD 1,500 depending on city and lifestyle – includes housing, food, local travel, and miscellaneous expenses.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
 
 
 
       </div>
 
 
-<div>
-<InqueryCommon/>
-</div>
+      <div>
+        <InqueryCommon />
+      </div>
 
       <Footer />
     </>
