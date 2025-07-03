@@ -177,7 +177,7 @@ const Gallery = () => {
       {/* <h1>Inspiring Gallery</h1> */}
       <div className="gallery">
         {galleryData.map((item, index) => (
-          <div className="gallery-item cursor-pointer"  style={{ '--delay': index + 1 }} data-delay={index + 1} key={index} onClick={() => navigate('/International')} >
+          <div className="gallery-item cursor-pointer"  style={{ '--delay': index + 1 }} data-delay={index + 1} key={index} onClick={() => navigate('/contactus')} >
             <img src={item.image} alt={item.title} />
             <div className="overlay">
               <h2>{item.title}</h2>

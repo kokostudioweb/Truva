@@ -1979,7 +1979,7 @@ color: var(--blue-color);
   transform: translateY(100%);
 }
 
-.overlay {
+.visa-bannerdata .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -2007,18 +2007,18 @@ color: var(--blue-color);
   opacity: 0.3;
 }
 
-.overlay h3 {
+.visa-bannerdata .overlay h3 {
   margin-bottom: 20px;
   font-size: 26px;
 }
 
-.overlay p {
+.visa-bannerdata .overlay p {
   font-size: 18px;
   margin-bottom: 15px;
   line-height: 30px;
 }
 
-.overlay button {
+.visa-bannerdata .overlay button {
   background-color: #F8B117;
   border: none;
   padding: 10px 18px;
