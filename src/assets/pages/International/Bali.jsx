@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import studentvisabaner from '../../images/studentvisabaner.png';
-import inquaryimage from '../../images/inquaryimage.png';
+import balibanner from '../../images/balibanner.png';
+import balihero from '../../images/balihero.png';
 import Gallery from '../Gallery';
 import Contactform from '../contactform';
 import maps from "../../images/maps.svg";
@@ -18,23 +18,47 @@ const Bali = () => {
      
    <div className="main-banner-common"
                 style={{
-                  backgroundImage: `url(${studentvisabaner})`,
+                  backgroundImage: `url(${balibanner})`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
-                  height: '845px',
+                  height: '720px',
                   width: '100%',
                   objectFit:'contain',
                 }}
                 >
                 <div className="truva-container">
                     <div className="banner-common-title">
-                    <h2>International
-Packages </h2>
+                    <h2>Bali </h2>
            
                 </div>
                 </div>
                 
                 </div>
+
+                <div className="main-usa-data">
+                        <div className="truva-container">
+                          <div className="usainner-block">
+                            <div className="usainner-images">
+                              <img src={balihero} alt="balihero" />
+                            </div>
+                            <div className="usainner-detail">
+                              <h2 className=''>Bali
+                                
+                  </h2>
+             
+                              <p>Find your peace in Bali, where turquoise waves kiss white sands and spiritual energy flows through ancient temples. Known as the “Island of the Gods,” Bali offers everything from wellness retreats in Ubud to surfing in Uluwatu and vibrant beach clubs in Seminyak. The landscapes—volcanoes, rice terraces, waterfalls—are pure inspiration for the soul.
+ </p>
+                            
+                              <p>With Truva Overseas, your Bali journey goes beyond the typical. We design personalized escapes for honeymooners, families, and wellness seekers alike, combining serene stays with immersive local experiences — be it a traditional Balinese ceremony, a cooking class, or a yoga session overlooking the jungle.
+                              </p>
+                
+                            </div>
+                
+                
+                          </div>
+                       
+                        </div>
+                      </div>
                 <div className="main-galary-section">
 <Gallery />
                 </div>

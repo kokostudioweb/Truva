@@ -46,21 +46,21 @@ const Footer = () => {
               <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About Us</Link></li>
-                <li><Link to="/immigrate">Immigrate</Link></li>
-                <li><Link to="/blogs">Tour & Travels</Link></li>
+                <li><Link to="/domestic">Domestic</Link></li>
+                <li><Link to="/international">International</Link></li>
                 <li><Link to="/contactus">Contact Us</Link></li>
               </ul>
             </div>
           </div>
           <div className="footer-detail-common">
             <div className="footer-title-inner">
-              <h3>Useful Links</h3>
+              <h3>Services</h3>
             </div>
             <div className="footer-manu">
               <ul>
-                <li><Link to="/investmentservices">Investment Services</Link></li>
-                <li><Link to="/insuranceservices">Insurance Services</Link></li>
-                <li><Link to="/taxservices">Tax Services</Link></li>
+                <li><Link to="/studentvisa">Student Visa</Link></li>
+                <li><Link to="/visitorvisa">Visitor Visa</Link></li>
+                <li><Link to="/Immigrate">Immigrate</Link></li>
                 
               </ul>
             </div>
@@ -81,7 +81,7 @@ const Footer = () => {
                  {/* <a href="tel:+0987654321">+0 987 654 321</a> */}
                  </span>
                  </li>
-                 <li><a href="mailto:trungkienspktnd@gamail.com"><span><img src={mailicon} alt="mailicon" /></span>trungkienspktnd@gamail.com</a></li>
+                 <li><a href="mailto:truvaoverseas@gmail.com"><span><img src={mailicon} alt="mailicon" /></span>truvaoverseas@gmail.com</a></li>
               </ul>
             </div>
           </div>

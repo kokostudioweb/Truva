@@ -24,12 +24,15 @@ import Turkey from './assets/pages/International/Turkey';
 import Bali from './assets/pages/International/Bali';
 import Japan from './assets/pages/International/Japan';
 import Dubai from './assets/pages/International/Dubai';
+import ScrollToTop from './component/ScrollToTop';
+import ContactUs from './assets/pages/contactus';
 
 function App() {
   // const [count, setCount] = useState(0);
 
   return (
     <Router>
+      <ScrollToTop />
       <Header /> {/* Global navigation header */}
 
       <Routes>
@@ -53,6 +56,7 @@ function App() {
         <Route path="/bali" element={<Bali/>} />
         <Route path="/japan" element={<Japan/>} />
         <Route path="/dubai" element={<Dubai/>} />
+        <Route path="/contactus" element={<ContactUs/>} />
         {/* Add other routes like /contactus, /services, etc. here */}
       </Routes>
     </Router>

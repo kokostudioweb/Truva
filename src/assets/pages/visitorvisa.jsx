@@ -69,7 +69,9 @@ const VisitorVisa = () => {
             </div>
             <div className="usainner-detail">
               <h2 className=''>Explore the World with Confidence
-Let Truva Handle the Paperwork  </h2>
+                
+  </h2>
+  <h3>Let Truva Handle the Paperwork</h3>
               <p>Whether you’re planning to attend a family wedding, explore iconic cities, or visit friends abroad, a visitor visa is your gateway to the world. At Truva Overseas, we specialize in making international travel effortless with expert assistance for Visitor Visas to Canada, USA, UK, Australia, and Europe. From assessing your eligibility and preparing the right documentation to guiding you through the latest embassy protocols, our team ensures a smooth, stress-free visa process every step of the way.
               </p>
               <h3>Why Choose Europe for Higher Education?</h3>

@@ -1,7 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import studentvisabaner from '../../images/studentvisabaner.png';
+import japanbanner from '../../images/japanbanner.png';
+import japanhero from '../../images/japanhero.png';
 import inquaryimage from '../../images/inquaryimage.png';
 import Gallery from '../Gallery';
 import Contactform from '../contactform';
@@ -18,23 +19,46 @@ const Japan = () => {
      
    <div className="main-banner-common"
                 style={{
-                  backgroundImage: `url(${studentvisabaner})`,
+                  backgroundImage: `url(${japanbanner})`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
-                  height: '845px',
+                  height: '720px',
                   width: '100%',
                   objectFit:'contain',
                 }}
                 >
                 <div className="truva-container">
                     <div className="banner-common-title">
-                    <h2>International
-Packages </h2>
+                    <h2>Japan </h2>
            
                 </div>
                 </div>
                 
                 </div>
+                <div className="main-usa-data">
+                        <div className="truva-container">
+                          <div className="usainner-block">
+                            <div className="usainner-images">
+                              <img src={japanhero} alt="japanhero" />
+                            </div>
+                            <div className="usainner-detail">
+                              <h2 className=''>Japan
+                                
+                  </h2>
+             
+                              <p>Step into a country where ancient traditions meet futuristic innovations — Japan is a timeless destination full of contrasts. Wander through Kyoto’s serene temples, explore the buzzing streets of Tokyo, or chase cherry blossoms in spring. From sumo wrestling matches to robot restaurants, every moment in Japan promises a new story.
+   </p>
+                            
+                              <p>Truva Overseas brings you the best of Japan with guided experiences that cover cultural immersion, high-tech wonders, and culinary delights. Whether you're a solo traveler fascinated by heritage or a family ready for fun at Disneyland Tokyo, we tailor each itinerary to showcase the heart and harmony of Japan.
+                              </p>
+                
+                            </div>
+                
+                
+                          </div>
+                       
+                        </div>
+                      </div>
                 <div className="main-galary-section">
 <Gallery />
                 </div>

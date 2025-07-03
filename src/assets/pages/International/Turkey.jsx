@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import studentvisabaner from '../../images/studentvisabaner.png';
-import inquaryimage from '../../images/inquaryimage.png';
+import turkeybanner from '../../images/turkeybanner.png';
+import turkeyhero from '../../images/turkeyhero.png';
 import Gallery from '../Gallery';
 import Contactform from '../contactform';
 import maps from "../../images/maps.svg";
@@ -18,23 +18,45 @@ const Turkey = () => {
      
    <div className="main-banner-common"
                 style={{
-                  backgroundImage: `url(${studentvisabaner})`,
+                  backgroundImage: `url(${turkeybanner})`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
-                  height: '845px',
+                  height: '720px',
                   width: '100%',
                   objectFit:'contain',
                 }}
                 >
                 <div className="truva-container">
                     <div className="banner-common-title">
-                    <h2>International
-Packages </h2>
+                    <h2>Turkey </h2>
            
                 </div>
                 </div>
                 
                 </div>
+                   <div className="main-usa-data">
+                                        <div className="truva-container">
+                                          <div className="usainner-block">
+                                            <div className="usainner-images">
+                                              <img src={turkeyhero} alt="turkeyhero" />
+                                            </div>
+                                            <div className="usainner-detail">
+                                              <h2 className=''>Turkey
+                                                
+                                  </h2>
+                             
+                                              <p>A land of myths, mosaics, and mesmerizing beauty, Turkey is where East meets West in spectacular harmony. Explore the ruins of Ephesus, marvel at the fairy chimneys of Cappadocia, and relax in the thermal waters of Pamukkale. From the vibrant bazaars of Istanbul to the Mediterranean beaches of Antalya, Turkey offers history, flavor, and warm hospitality.
+</p>
+                                            
+                                              <p>At Truva Overseas, we invite you to uncover Turkey’s magic with tours that delve deep into its cultural richness and scenic landscapes. Whether you're an explorer, a history enthusiast, or a couple seeking a romantic escape, our Turkey packages promise an experience as dynamic and diverse as the country itself.    </p>
+                                
+                                            </div>
+                                
+                                
+                                          </div>
+                                       
+                                        </div>
+                                      </div>
                 <div className="main-galary-section">
 <Gallery />
                 </div>

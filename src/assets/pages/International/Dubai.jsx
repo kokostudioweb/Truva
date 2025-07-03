@@ -1,7 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import studentvisabaner from '../../images/studentvisabaner.png';
+import dubaibanner from '../../images/dubaibanner.png';
+import dubaihero from '../../images/dubaihero.png';
 import inquaryimage from '../../images/inquaryimage.png';
 import Gallery from '../Gallery';
 import Contactform from '../contactform';
@@ -19,23 +20,46 @@ const Dubai = () => {
      
    <div className="main-banner-common"
                 style={{
-                  backgroundImage: `url(${studentvisabaner})`,
+                  backgroundImage: `url(${dubaibanner})`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
-                  height: '845px',
+                  height: '720px',
                   width: '100%',
                   objectFit:'contain',
                 }}
                 >
                 <div className="truva-container">
                     <div className="banner-common-title">
-                    <h2>International
-Packages </h2>
+                    <h2>Dubai </h2>
            
                 </div>
                 </div>
                 
                 </div>
+<div className="main-usa-data">
+                        <div className="truva-container">
+                          <div className="usainner-block">
+                            <div className="usainner-images">
+                              <img src={dubaihero} alt="dubaihero" />
+                            </div>
+                            <div className="usainner-detail">
+                              <h2 className=''>Dubai
+                                
+                  </h2>
+             
+                              <p>Where luxury meets adventure, Dubai invites you to experience a world of extremes — from glittering malls to golden deserts. Ascend the towering Burj Khalifa, shop in the opulent Dubai Mall, or cruise through Dubai Marina in a private yacht. Families and thrill-seekers alike will love attractions like IMG Worlds of Adventure, Aquaventure Waterpark, and exciting desert safaris under the stars.</p>
+                            
+                              <p>With Truva Overseas, dive into the extravagant lifestyle of Dubai with thoughtfully designed itineraries that balance comfort, culture, and adrenaline. Whether it’s a romantic getaway, a shopping spree, or an action-packed vacation, we ensure your Dubai experience is as seamless as it is spectacular.
+                              </p>
+                
+                            </div>
+                
+                
+                          </div>
+                       
+                        </div>
+                      </div>
+
                 <div className="main-galary-section">
 <Gallery />
                 </div>
