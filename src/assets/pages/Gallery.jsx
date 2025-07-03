@@ -20,6 +20,7 @@ import Chandigarh from '../images/Chandigarh.avif';
 import Chhattisgarh from '../images/Chhattisgarh.avif';
 import Delhi from '../images/Delhi.avif';
 import Goa from '../images/Goa.avif';
+import { useNavigate } from 'react-router-dom';
 const galleryData = [
   {
     image: bihar,
@@ -144,6 +145,7 @@ const galleryData = [
 
 
 const Gallery = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     // Scroll progress bar
     const onScroll = () => {
@@ -175,7 +177,7 @@ const Gallery = () => {
       {/* <h1>Inspiring Gallery</h1> */}
       <div className="gallery">
         {galleryData.map((item, index) => (
-          <div className="gallery-item" style={{ '--delay': index + 1 }} data-delay={index + 1} key={index}>
+          <div className="gallery-item cursor-pointer"  style={{ '--delay': index + 1 }} data-delay={index + 1} key={index} onClick={() => navigate('/International')} >
             <img src={item.image} alt={item.title} />
             <div className="overlay">
               <h2>{item.title}</h2>

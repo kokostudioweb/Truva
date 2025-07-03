@@ -153,8 +153,7 @@ const Australia = () => {
 
                 <div className="content intek-uk">
                   <h1>Academic Intakes</h1>
-                  <p className="note-title">UK universities offer multiple intake options to <br />
-                    accommodate international students.</p>
+                  <p className="note-title">Australia offers two major academic intakes:</p>
 
 
                   <div className="main-intack-block">
@@ -340,21 +339,6 @@ Visa Process (SVP).</p>
           </div>
           </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <div className="estimate-cost">
