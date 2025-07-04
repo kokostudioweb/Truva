@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Footer from '../footer';
-import studentvisabaner from '../../images/studentvisabaner.png';
-import usavisa from '../../images/usavisa.png';
+import australiyabanner from '../../images/australiyabanner.png';
+import aushero from '../../images/aushero.png';
 import acadamic from '../../images/acadamicimg.png';
 import eligliblityimg from '../../images/eligliblityimg.png';
 import programs from '../../images/programs.png';
@@ -36,10 +36,10 @@ const Australia = () => {
 
       <div className="main-banner-common"
         style={{
-          backgroundImage: `url(${studentvisabaner})`,
+          backgroundImage: `url(${australiyabanner})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          height: '845px',
+          height: '720px',
           width: '100%',
           objectFit: 'contain',
         }}
@@ -57,7 +57,7 @@ const Australia = () => {
         <div className="truva-container">
           <div className="usainner-block">
             <div className="usainner-images">
-              <img src={usavisa} alt="usavisa" />
+              <img src={aushero} alt="aushero" />
             </div>
             <div className="usainner-detail">
               <h2 className=''>Australia Student Visa     </h2>

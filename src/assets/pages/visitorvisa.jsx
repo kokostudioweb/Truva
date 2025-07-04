@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Footer from './footer';
-import studentvisabaner from '../images/studentvisabaner.png';
+import visitorbanner from '../images/visitorbanner.png';
 import visitorvisahero from '../images/visitorvisahero.png';
 import europevisitor from '../images/europevisitor.png';
 import australiyavisitor from '../images/australiyavisitor.png';
@@ -45,10 +45,10 @@ const VisitorVisa = () => {
      
             <div className="main-banner-common"
                 style={{
-                  backgroundImage: `url(${studentvisabaner})`,
+                  backgroundImage: `url(${visitorbanner})`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
-                  height: '845px',
+                  height: '720px',
                   width: '100%',
                   objectFit:'contain',
                 }}

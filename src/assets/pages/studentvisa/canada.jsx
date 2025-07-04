@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Footer from '../footer';
-import studentvisabaner from '../../images/studentvisabaner.png';
+import canadastudentvisa from '../../images/canadastudentvisa.png';
 
 
 
@@ -11,7 +11,7 @@ import studentvisabaner from '../../images/studentvisabaner.png';
 // import { useNavigate } from 'react-router-dom';
 // import Footer from '../footer';
 // import studentvisabaner from '../../images/studentvisabaner.png';
-import canadaimg from '../../images/canadaimg.png';
+import canadahero from '../../images/canadahero.png';
 import canadamap from '../../images/canadamap.png';
 import canadalanguage from '../../images/canadalanguage.png';
 import jancalender from '../../images/jancalender.svg';
@@ -36,10 +36,10 @@ const Canada = () => {
 
       <div className="main-banner-common"
         style={{
-          backgroundImage: `url(${studentvisabaner})`,
+          backgroundImage: `url(${canadastudentvisa})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          height: '845px',
+          height: '720px',
           width: '100%',
           objectFit: 'contain',
         }}
@@ -56,7 +56,7 @@ const Canada = () => {
         <div className="truva-container">
           <div className="usainner-block">
             <div className="usainner-images">
-              <img src={canadaimg} alt="canadaimg" />
+              <img src={canadahero} alt="canadahero" />
             </div>
             <div className="usainner-detail">
               <h2>Canada Student Visa  </h2>

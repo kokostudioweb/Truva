@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Footer from '../footer';
-import studentvisabaner from '../../images/studentvisabaner.png';
-import usavisa from '../../images/usavisa.png';
+import ukbanner from '../../images/ukbanner.png';
+import ukhero from '../../images/ukhero.png';
 import acadamic from '../../images/acadamic.png';
 import eligliblityimg from '../../images/eligliblityimg.png';
 import programs from '../../images/programs.png';
@@ -39,10 +39,10 @@ const Uk = () => {
 
       <div className="main-banner-common"
         style={{
-          backgroundImage: `url(${studentvisabaner})`,
+          backgroundImage: `url(${ukbanner})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          height: '845px',
+          height: '720px',
           width: '100%',
           objectFit: 'contain',
         }}
@@ -59,7 +59,7 @@ const Uk = () => {
         <div className="truva-container">
           <div className="usainner-block">
             <div className="usainner-images">
-              <img src={usavisa} alt="usavisa" />
+              <img src={ukhero} alt="ukhero" />
             </div>
             <div className="usainner-detail">
               <h2 className=''>UK Student Visa   </h2>
