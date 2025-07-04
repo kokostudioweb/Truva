@@ -10,6 +10,7 @@ import phoneicon from "../../images/phoneicon.svg";
 import mailicon from "../../images/mailicon.svg";
 import InqueryCommon from '../inquerycommon';
 import Footer from '../footer';
+import BaliGallary from '../../../component/baligallary';
 
 const Bali = () => {
   
@@ -60,7 +61,7 @@ const Bali = () => {
                         </div>
                       </div>
                 <div className="main-galary-section">
-<Gallery />
+<BaliGallary />
                 </div>
                  
                 {/* <div className="inquery-common-main">

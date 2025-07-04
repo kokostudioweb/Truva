@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import "aos/dist/aos.css";
+
 
 @tailwind base;
 @tailwind components;
@@ -2026,4 +2028,176 @@ color: var(--blue-color);
   color: white;
   font-weight: bold;
   cursor: pointer;
+}
+
+
+
+/* TestimonialSlider */
+
+/* Container for the slider */
+.testimonial-slider {
+  margin: 0 auto;
+}
+
+/* Individual testimonial card */
+.testimonial-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+/* Header with image, name and quote */
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* Profile image */
+.testimonial-header img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  /* margin-right: 16px; */
+  position: relative;
+}
+
+/* Name and location background */
+.name-box {
+    background-color: #D2D6FF;
+   padding: 14px 30px 14px 60px;
+    border-radius: 40px;
+    flex-grow: 1;
+    max-width: 220px;
+    /* text-align: center; */
+    margin-left: -50px;
+}
+
+.name-box h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.name-box span {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Quotation icon */
+.quote-icon {
+  color: #e7e9fb;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.quote-icon img {
+ border-radius: unset;
+ object-fit: fill;
+ width: 90px;
+    height: 80px;
+}
+
+/* Testimonial text */
+.testimonial-text {
+  font-size: var(--font-16px);
+  color: #333;
+  margin: 0 0 20px 0;
+  line-height: 1.6;
+  height: 95px;
+    min-height: auto;
+    margin-bottom: 20px;
+    font-weight: 400;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+/* Star rating */
+.stars {
+  font-size: 24px;
+  color: #f4ea2a;
+  letter-spacing: 4px;
+}
+
+/* Swiper pagination dots */
+.swiper-pagination-bullets {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ccc;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000;
+}
+
+.testimonial-slider .swiper {
+    padding: 10px 20px 50px 20px;
+}
+.testimonial-slider .swiper-pagination-bullet-active{
+  background: var(--secondary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* src/components/MasonryGallery.css */
+
+/* src/components/MasonryGallery.css */
+
+.gallery-container {
+  padding: 24px;
+  background: #ffffff;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+}
+
+.masonry-grid {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.masonry-item img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.masonry-item:hover img {
+  transform: scale(1.04);
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .masonry-grid {
+    column-count: 1;
+  }
 }

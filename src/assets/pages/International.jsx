@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import studentvisabaner from '../images/studentvisabaner.png';
+import internactionalbanner from '../images/internactionalbanner.png';
 import InqueryCommon from './inquerycommon';
 import visitarvisa from '../images/visitarvisa.png';
 import immeraction from '../images/immeraction.png';
@@ -22,10 +22,10 @@ const International = () => {
      <div className="international-main">
    <div className="main-banner-common"
                 style={{
-                  backgroundImage: `url(${studentvisabaner})`,
+                  backgroundImage: `url(${internactionalbanner})`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
-                  height: '845px',
+                  height: '720px',
                   width: '100%',
                   objectFit:'contain',
                 }}
@@ -91,7 +91,7 @@ const International = () => {
       <p>Serene beaches, spiritual temples, and lush nature for soul-soothing escapes.
 </p>
       {/* <button   onClick={() => navigate('/InvestmentServices')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={righttoparrow} alt="righttoparrow" /></span></button> */}
-      <button onClick={() => navigate('//bali')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
+      <button onClick={() => navigate('/bali')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
     </div>
     </div>
         <div className="ourservice-inner-card-data">

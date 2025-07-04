@@ -17,6 +17,7 @@ import holidayimage from '../images/holidayimage.png';
 import packageone from '../images/packageone.png';
 import packagetwo from '../images/packagetwo.png';
 import Footer from './footer';
+import TestimonialSlider from '../../component/TestimonialSlider';
 
 
 
@@ -194,11 +195,13 @@ Let us make your process smooth, transparent, and truly world-class.</p>
     </div>
      </div>
      <div className="testmonial-section">
+      <div className="truva-container">
       <div className="main-visa-title">
         <h2>Testimonials</h2>
     </div>
+    <TestimonialSlider/>
      </div>
-
+</div>
      <Footer/>
     </div>
    

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import studentvisabaner from '../images/studentvisabaner.png';
+import canadaprbanner from '../images/canadaprbanner.png';
 import Footer from './footer';
 import usavisa from '../images/usavisa.png';
 import InqueryCommon from './inquerycommon';
@@ -18,10 +18,10 @@ const CanadaProgram = () => {
                     
                        <div className="main-banner-common"
                            style={{
-                             backgroundImage: `url(${studentvisabaner})`,
+                             backgroundImage: `url(${canadaprbanner})`,
                              backgroundSize: 'cover',
                              backgroundPosition: 'center',
-                             height: '845px',
+                             height: '720px',
                              width: '100%',
                              objectFit:'contain',
                            }}

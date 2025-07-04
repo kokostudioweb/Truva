@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Footer from './footer';
-import studentvisabaner from '../images/studentvisabaner.png';
+import domesticbanner from '../images/domesticbanner.png';
 import inquaryimage from '../images/inquaryimage.png';
 import Gallery from './Gallery';
 import Contactform from './contactform';
@@ -17,10 +17,10 @@ const Domestic = () => {
      
    <div className="main-banner-common"
                 style={{
-                  backgroundImage: `url(${studentvisabaner})`,
+                  backgroundImage: `url(${domesticbanner})`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
-                  height: '845px',
+                  height: '720px',
                   width: '100%',
                   objectFit:'contain',
                 }}

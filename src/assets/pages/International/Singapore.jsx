@@ -11,6 +11,7 @@ import phoneicon from "../../images/phoneicon.svg";
 import mailicon from "../../images/mailicon.svg";
 import InqueryCommon from '../inquerycommon';
 import Footer from '../footer';
+import SingaporeGallary from '../../../component/singaporegallary';
 
 const Singapore = () => {
   
@@ -63,7 +64,9 @@ const Singapore = () => {
                         </div>
                       </div>
                 <div className="main-galary-section">
-<Gallery />
+                  <div className="truva-container">
+<SingaporeGallary/>
+</div>
                 </div>
                  
                 {/* <div className="inquery-common-main">
