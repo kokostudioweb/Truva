@@ -3,7 +3,15 @@ import { useNavigate } from 'react-router-dom';
 import Footer from './footer';
 import studenvisa from '../images/studenvisa.png';
 import usabg from '../images/usabg.png';
+import canadacard from '../images/canadacard.png';
+import ukcard from '../images/ukcard.png';
+import australiyacard from '../images/australiyacard.png';
+import europcard from '../images/europcard.png';
 import usaflag from '../images/usaflag.svg';
+import canadaflag from '../images/canadaflag.svg';
+import ukfag from '../images/ukfag.svg';
+import australiyamap from '../images/australiyamap.svg';
+import europflag from '../images/europflag.png';
 import rightarrow from '../images/rightarrow.svg';
 
 const StudentVisa = () => {
@@ -49,10 +57,10 @@ const StudentVisa = () => {
               
             </div>
          <div className="ourservice-inner-card-data">
-            <img className='visamain-image' src={usabg} alt="usabg" />
+            <img className='visamain-image' src={canadacard} alt="canadacard" />
             <div className="serviceinner-card-details">
                 <div className="invest-grey-round">
-                    <img className='' src={usaflag} alt="usaflag" />
+                    <img className='' src={canadaflag} alt="canadaflag" />
                 </div>
               
               <h3>Canada</h3>
@@ -63,10 +71,10 @@ const StudentVisa = () => {
               
             </div>
          <div className="ourservice-inner-card-data">
-            <img className='visamain-image' src={usabg} alt="usabg" />
+            <img className='visamain-image' src={ukcard} alt="ukcard" />
             <div className="serviceinner-card-details">
                 <div className="invest-grey-round">
-                    <img className='' src={usaflag} alt="usaflag" />
+                    <img className='' src={ukfag} alt="ukfag" />
                 </div>
               
               <h3>UK</h3>
@@ -77,10 +85,10 @@ const StudentVisa = () => {
               
             </div>
          <div className="ourservice-inner-card-data">
-            <img className='visamain-image' src={usabg} alt="usabg" />
+            <img className='visamain-image' src={australiyacard} alt="australiyacard" />
             <div className="serviceinner-card-details">
                 <div className="invest-grey-round">
-                    <img className='' src={usaflag} alt="usaflag" />
+                    <img className='' src={australiyamap} alt="australiyamap" />
                 </div>
               
               <h3>Australia</h3>
@@ -91,10 +99,10 @@ const StudentVisa = () => {
               
             </div>
          <div className="ourservice-inner-card-data">
-            <img className='visamain-image' src={usabg} alt="usabg" />
+            <img className='visamain-image' src={europcard} alt="europcard" />
             <div className="serviceinner-card-details">
                 <div className="invest-grey-round">
-                    <img className='' src={usaflag} alt="usaflag" />
+                    <img className='' src={europflag} alt="europflag" />
                 </div>
               
               <h3>Europe</h3>

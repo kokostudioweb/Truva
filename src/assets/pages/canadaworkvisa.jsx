@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import canadaworkbanner from '../images/canadaworkbanner.png';
 import Footer from './footer';
-import usavisa from '../images/usavisa.png';
+import canadaworkhero from '../images/canadaworkhero.png';
 import InqueryCommon from './inquerycommon';
 
 
@@ -37,7 +37,7 @@ const CanadaWorkVisa = () => {
                             <div className="truva-container">
                            <div className="usainner-block">
                             <div className="usainner-images">
-                              <img src={usavisa} alt="usavisa" />
+                              <img src={canadaworkhero} alt="canadaworkhero" />
                             </div>
                             <div className="usainner-detail">
                               <h2>Canada Work Visa  </h2>

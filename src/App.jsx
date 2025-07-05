@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import './index.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 // Import pages and components
 import Home from './assets/pages/home';

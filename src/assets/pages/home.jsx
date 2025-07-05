@@ -5,7 +5,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink, useNavigate } from 'react-router-dom';
 import truvaheaderlogo from '../images/truvaheaderlogo.svg';
-import studentlogo from '../images/studentlogo.svg';
+import immigraticon from '../images/immigraticon.svg';
+import studentviicon from '../images/studentviicon.svg';
+import visitorvisaicon from '../images/visitorvisaicon.svg';
 import rightarrow from '../images/rightarrow.svg';
 import truvebanner from '../images/truvebanner.png';
 import welcomeone from '../images/welcomeone.png';
@@ -116,7 +118,7 @@ Let us make your process smooth, transparent, and truly world-class.</p>
     <img className='visamain-image' src={studentvisa} alt="studentvisa" />
     <div className="serviceinner-card-details">
         <div className="invest-grey-round">
-            <img className='' src={studentlogo} alt="sstudentlogo" />
+            <img className='' src={studentviicon} alt="studentviicon" />
         </div>
       
       <h3>Student Visa</h3>
@@ -130,7 +132,7 @@ Let us make your process smooth, transparent, and truly world-class.</p>
     <img className='visamain-image' src={visitarvisa} alt="visitarvisa" />
     <div className="serviceinner-card-details">
         <div className="invest-grey-round">
-            <img className='' src={studentlogo} alt="sstudentlogo" />
+            <img className='' src={visitorvisaicon} alt="visitorvisaicon" />
         </div>
       
       <h3>Visitor Visa</h3>
@@ -144,7 +146,7 @@ Let us make your process smooth, transparent, and truly world-class.</p>
     <img className='visamain-image' src={immeraction} alt="immeraction" />
     <div className="serviceinner-card-details">
         <div className="invest-grey-round">
-            <img className='' src={studentlogo} alt="sstudentlogo" />
+            <img className='' src={immigraticon} alt="immigraticon" />
         </div>
       
       <h3>Immigration Visa</h3>
@@ -189,11 +191,11 @@ Let us make your process smooth, transparent, and truly world-class.</p>
         </div>
         </div>
      </div>
-     <div className="whychooes-section">
+     {/* <div className="whychooes-section">
       <div className="main-visa-title">
         <h2>Why Choose Us</h2>
     </div>
-     </div>
+     </div> */}
      <div className="testmonial-section">
       <div className="truva-container">
       <div className="main-visa-title">

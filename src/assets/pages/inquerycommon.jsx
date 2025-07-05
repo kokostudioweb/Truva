@@ -24,17 +24,17 @@ const InqueryCommon = () => {
                         <div className="contactdetail">
                           <div className="footer-manu">
                                         <ul>
-                                          <li className='mb-3'><a href="#"><span><img src={maps} alt="maps" /></span>2715 Ash Dr. San Jose, South <br /> Dakota 83475</a></li>
+                                          <li className='mb-3'><a href="#"><span><img src={maps} alt="maps" /></span>C-804, Titanium City Center Business Park, 100 Feet Rd, Satellite, Ahmedabad, Gujarat 380015</a></li>
                                           <li className="d-flex items-center gap-4 mb-3">
                                           <span>
                                           <img src={phoneicon} alt="phoneicon" />
                                           </span>
                                            <span>
-                                           <a href="tel:+1234567890">+1 234 567 890</a>
-                                           <a href="tel:+0987654321">+0 987 654 321</a>
+                                           <a href="tel:+91 6356494895">+91 6356494895</a>
+                                           {/* <a href="tel:+0987654321">+0 987 654 321</a> */}
                                            </span>
                                            </li>
-                                           <li><a href="mailto:trungkienspktnd@gamail.com"><span><img src={mailicon} alt="mailicon" /></span>trungkienspktnd@gamail.com</a></li>
+                                           <li><a href="mailto:truvaoverseas@gmail.com"><span><img src={mailicon} alt="mailicon" /></span>truvaoverseas@gmail.com</a></li>
                                         </ul>
                                       </div>
                                       

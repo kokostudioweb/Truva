@@ -3,12 +3,14 @@ import { useNavigate } from 'react-router-dom';
 import Footer from './footer';
 import immigratebanner from '../images/immigratebanner.png';
 import usabg from '../images/usabg.png';
-import usaflag from '../images/usaflag.svg';
+import canadaworkicon from '../images/canadaworkicon.svg';
 import rightarrow from '../images/rightarrow.svg';
 import studentvisa from '../images/studentvisa.png';
 import studentlogo from '../images/studentlogo.svg';
 import bagicon from '../images/bagicon.svg';
 import visitarvisa from '../images/visitarvisa.png';
+import canadawork from '../images/canadawork.png';
+import cananadapr from '../images/cananadapr.png';
 import immeraction from '../images/immeraction.png';
 
 const Immigrate = () => {
@@ -42,10 +44,10 @@ const Immigrate = () => {
     <div className="visa-card">
   
         <div className="ourservice-inner-card-data">
-    <img className='visamain-image' src={studentvisa} alt="studentvisa" />
+    <img className='visamain-image' src={canadawork} alt="canadawork" />
     <div className="serviceinner-card-details">
         <div className="invest-grey-round">
-            <img className='' src={bagicon} alt="bagicon" />
+            <img className='' src={canadaworkicon} alt="canadaworkicon" />
         </div>
       
       <h3>Canada Work Visa</h3>
@@ -57,7 +59,7 @@ professionals and skilled workers fast-track their move legally and confidently<
       
     </div>
         <div className="ourservice-inner-card-data">
-    <img className='visamain-image' src={visitarvisa} alt="visitarvisa" />
+    <img className='visamain-image' src={cananadapr} alt="cananadapr" />
     <div className="serviceinner-card-details">
         <div className="invest-grey-round">
             <img className='' src={bagicon} alt="bagicon" />

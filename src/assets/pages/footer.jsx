@@ -89,7 +89,7 @@ const Footer = () => {
       </div>
       <div className="footer-copyright">
       </div>
-      <div className="wealthy-container">
+      <div className="truva-container">
         <div className="footer-copyright-detail">
           <p> © 2023  Company. All Right Reserved.</p>
         </div>
