@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -30,6 +30,17 @@ const navigate = useNavigate();
   const handleClick = () => {
     navigate('/contactus');
   };
+
+  // Scroll to anchor if hash is present
+  useEffect(() => {
+    if (window.location.hash) {
+      const id = window.location.hash.replace('#', '');
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, []);
 
   // You can define a function to add active styling:
   const getNavLinkClass = ({ isActive }) => (isActive ? 'nav-link active' : 'nav-link');
@@ -90,14 +101,14 @@ style={{
 </div>
 </div>
 </div>
-<div className="truva-welcome-section">
+<div className="truva-welcome-section" >
 <div className="truva-container">
     <div className="welcome-block">
         <div className="welcome-image">
             <img className='firstwelcome' src={welcomeone} alt="welcomeone" />
             <img className='secondwelcome' src={welcometwo} alt="welcometwo" />
-        </div>
-        <div className="welcome-detail">
+        </div>  
+        <div className="welcome-detail" id='welcomeabout'>
             <h2>Welcome to Truva Overseas</h2>
             <p>At Truva Overseas, we open doors to new journeys - whether you're looking to study, work, or explore the world. With years of expertise in visa consulting and a curated portfolio of international & domestic travel services, we’re here to guide you through every step of your global aspirations.
 Let us make your process smooth, transparent, and truly world-class.</p>

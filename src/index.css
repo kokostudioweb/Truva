@@ -95,6 +95,7 @@ height: 20px;
     top: 0;
     background: var(--primary-color);
     z-index: 10;
+    box-shadow: 0 0 10px #d2d2d2;
 }
 
 /* banner truve */
@@ -2385,3 +2386,9 @@ font-size: var(--font-18px);
     display: none;
   }
 }
+.main-banner {
+        height: 610px !important;
+    }
+    .main-banner-common{
+      height: 610px !important;
+    }
