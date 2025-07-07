@@ -1,0 +1,1304 @@
+@media only screen and (max-width: 1799px) {}
+
+@media only screen and (max-width: 1699px) {}
+
+@media only screen and (max-width: 1679px) {
+
+    .visa-card {
+        grid-gap: 50px;
+    }
+
+    .cardblock {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        align-items: center;
+    }
+
+    .programs-offered-common {
+        display: grid;
+        grid-template-columns: 720px auto;
+        padding: 40px 20px;
+        gap: 130px;
+    }
+
+    .language-section {
+        display: grid;
+        grid-template-columns: auto 750px;
+        gap: 100px;
+    }
+
+    .language-text p {
+        color: var(--secondary-color);
+        margin-top: 5px;
+        max-width: 610px;
+    }
+
+    .ausvisa-subclass {
+        padding-left: 60px;
+    }
+
+    .study-grid {
+        gap: 20px;
+    }
+
+    .language-image img {
+        width: 670px;
+    }
+
+    .truva-container-immigrate {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .main-banner-common {
+        height: 560px !important;
+    }
+
+    .quote-icon img {
+        width: 70px;
+        height: 60px;
+    }
+
+    .quote-icon {
+        right: 0;
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    :root {
+
+        --font-80px: 70px;
+        --font-68px: 64px;
+        --font-66px: 62px;
+        --font-60px: 58px;
+        --font-48px: 42px;
+        --font-46px: 40px;
+        --font-34px: 32px;
+        --font-32px: 30px;
+        --font-30px: 28px;
+        --font-28px: 26px;
+        --font-26px: 24px;
+        --font-24px: 22px;
+        --font-22px: 18px;
+        --font-20px: 18px;
+        --font-18px: 16px;
+        --font-16px: 16px;
+        --font-14px: 14px;
+        --font-12px: 12px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 1535px) {}
+
+@media only screen and (max-width: 1499px) {
+
+
+    .main-banner {
+        height: 720px !important;
+    }
+
+    .programs-offered-common .content-box li::before {
+        height: 20px;
+        width: 20px;
+        left: 15px;
+        top: 4px;
+    }
+
+    .programs-offered-common {
+        display: grid;
+        grid-template-columns: 660px auto;
+        padding: 0;
+        gap: 100px;
+    }
+
+    .image-box img {
+        width: 660px;
+    }
+
+    .intake-wrapper::before {
+        left: 28px;
+        top: 60px;
+        height: 60px;
+    }
+
+    .eligliblity-detail,
+    .acadamic-detail {
+        min-height: 400px;
+        width: 710px;
+    }
+
+    .programs-offered-common .content-box h2 {
+        margin-bottom: 20px;
+    }
+
+    .acadamictext-section h2 {
+        margin-bottom: 20px;
+    }
+
+    .language-image img {
+        width: 600px;
+        height: 400px;
+    }
+
+    .intect-canada::after {
+        left: 28px;
+        top: 178px;
+        height: 60px;
+    }
+
+    .language-text h2 {
+        max-width: 600px;
+    }
+
+    .academic-intact {
+        grid-template-columns: auto 673px;
+        grid-gap: 50px;
+    }
+
+    .serviceinner-card-details p {
+        height: 93px;
+    }
+
+    .footer-detail-common p {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1439px) {}
+
+@media only screen and (max-width: 1399px) {
+
+
+
+    :root {
+
+        --font-68px: 56px;
+    }
+
+    .firstwelcome {
+        width: 322px;
+        height: 388px;
+        border-radius: 25px;
+    }
+
+    .secondwelcome {
+        right: 40px;
+        bottom: -110px;
+        width: 337px;
+        height: 270px;
+    }
+
+    .welcome-block {
+        display: grid;
+        grid-template-columns: 600px 1fr;
+        align-items: center;
+        grid-gap: 60px;
+    }
+
+    .visa-section {
+        padding: 80px 0px;
+    }
+
+    .visamain-image {
+        width: 100%;
+        height: 260px;
+        border-radius: 25px;
+    }
+
+    .serviceinner-card-details p {
+        margin-bottom: 20px;
+    }
+
+    .packages-data {
+        grid-gap: 100px;
+    }
+
+    .language-section {
+        display: grid;
+        grid-template-columns: auto 650px;
+        gap: 70px;
+    }
+
+    .language-text p {
+        max-width: 520px;
+    }
+
+    .main-usa-data {
+        padding: 80px 0px;
+    }
+
+    .data-benifit h3 {
+        margin-top: 80px;
+    }
+
+    .acadamic-datablock {
+        padding: 80px 0px;
+    }
+
+    .fields-section {
+        padding: 0;
+    }
+
+    .canada-language {
+        padding: 80px 0 80px 0;
+    }
+
+    .visa-section-main {
+        padding: 0 0 80px 0;
+    }
+
+    .visa-section-main {
+        padding: 0 0 80px 0;
+    }
+
+    .ausvisa-subclass h1 br {
+        display: none;
+    }
+
+    .academic-intact-visa {
+        display: grid;
+        grid-template-columns: 650px auto;
+        grid-gap: 50px;
+        align-items: center;
+    }
+
+    .academic-intact-visa .image img {
+        width: 600px;
+    }
+
+    .ausvisa-subclass {
+        padding-left: 30px;
+    }
+
+    .canadapage-datablock .eligliblity-detail,
+    .canadapage-datablock .acadamic-detail {
+        min-height: 480px;
+    }
+
+    .estementcost {
+        padding: 0 0 80px 0;
+    }
+
+    .visa-requermeant {
+        padding: 0 0 80px 0;
+    }
+
+    .opportunity-section {
+        padding: 0;
+    }
+
+    .contact-container {
+        padding: 40px 80px;
+        margin: 80px 0px;
+    }
+
+    .contact-info-container {
+        gap: 80px;
+        padding: 50px 30px;
+    }
+
+    .truva-welcome-section {
+        padding: 80px 0px;
+    }
+
+    .testmonial-section {
+        padding: 80px 0 80px 0px;
+    }
+
+    .language-text h2 {
+        max-width: 470px;
+    }
+
+    .main-galary-section {
+        padding: 80px 0px;
+    }
+
+    .footer-manu ul li span img {
+        height: 22px;
+        width: 22px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1365px) {}
+
+@media only screen and (max-width: 1299px) {
+    :root {
+        --font-80px: 56px;
+        --font-66px: 54px;
+        --font-60px: 48px;
+        --font-48px: 40px;
+        --font-24px: 20px;
+        --font-20px: 16px;
+    }
+
+    .main-banner {
+        height: 500px !important;
+    }
+
+    .firstwelcome {
+        width: 272px;
+        height: 328px;
+        border-radius: 25px;
+    }
+
+    .secondwelcome {
+        right: 40px;
+        bottom: -110px;
+        width: 317px;
+        height: 240px;
+    }
+
+    .welcome-block {
+        display: grid;
+        grid-template-columns: 600px 1fr;
+        align-items: center;
+        grid-gap: 60px;
+    }
+
+    .images-package {
+        display: flex;
+        grid-gap: 50px;
+    }
+
+    .packages-data {
+        grid-gap: 70px;
+    }
+
+    .packeges-detail h3 br {
+        display: none;
+    }
+
+    .packgeshighlit {
+        height: 440px !important;
+    }
+
+    .images-package img {
+        width: 250px;
+    }
+
+    .work-text .icon-circle img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .language-section {
+        display: grid;
+        grid-template-columns: auto 560px;
+        gap: 70px;
+    }
+
+    .canadapage-datablock .eligliblity-detail,
+    .canadapage-datablock .acadamic-detail {
+        min-height: 440px;
+    }
+
+    .main-banner-common {
+        height: 480px !important;
+    }
+
+    .icon-circle img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact-info-container .icon-circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .divider {
+        height: 170px;
+    }
+
+    .image-box img {
+        width: 550px;
+        height: 550px;
+        object-fit: contain;
+    }
+
+    .card-container img {
+        max-width: 950px;
+    }
+
+    .programs-offered-common {
+        display: grid;
+        grid-template-columns: 550px auto;
+        padding: 0;
+        gap: 100px;
+    }
+
+    .usainner-detail h2 {
+        margin-bottom: 20px;
+    }
+
+    .usainner-images img {
+        width: 500px;
+    }
+
+    .usainner-block {
+        grid-template-columns: 500px 1fr;
+    }
+
+    .data-benifit h3 {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+    .data-benifit p {
+        margin: 0;
+    }
+
+    .academic-intact-visa {
+        display: grid;
+        grid-template-columns: 500px auto;
+        grid-gap: 50px;
+        align-items: center;
+    }
+
+    .academic-intact-visa .image img {
+        width: 500px;
+    }
+
+    .work-text p {
+        margin-bottom: 30px;
+    }
+
+    .intake:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    .calendar-icon {
+        width: 50px;
+        margin-right: 20px;
+    }
+
+    .intake-wrapper::before {
+        left: 24px;
+        top: 53px;
+        height: 47px;
+    }
+
+    .intect-canada::after {
+        left: 24px;
+        top: 149px;
+        height: 46px;
+    }
+
+    .canadapage-datablock .eligliblity-detail,
+    .canadapage-datablock .acadamic-detail {
+        min-height: 400px;
+    }
+
+    .language-image img {
+        width: 580px;
+        height: 400px;
+    }
+
+    .academic-intact {
+        grid-template-columns: auto 530px;
+        grid-gap: 50px;
+    }
+
+    .academic-intact .image img {
+        width: 530px;
+    }
+
+    .main-galary-section {
+        padding: 0px 0px 80px 0px;
+    }
+
+    .domestic-galary {
+        padding: 80px 0px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1279px) {}
+
+@media only screen and (max-width: 1199px) {
+
+
+    :root {
+        --font-80px: 50px;
+        --font-66px: 48px;
+        --font-60px: 40px;
+        --font-48px: 36px;
+        --font-24px: 20px;
+        --font-20px: 16px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+    }
+
+    .header-logo {
+        width: 200px;
+    }
+
+    .main-navbar-data {
+        grid-gap: 30px;
+    }
+
+    .welcome-block {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        grid-gap: 100px;
+    }
+
+    .firstwelcome {
+        width: 272px;
+        height: 328px;
+        border-radius: 25px;
+        margin-left: 180px;
+    }
+
+    .secondwelcome {
+        right: 180px;
+        bottom: -70px;
+        width: 317px;
+        height: 240px;
+    }
+
+    .welcome-detail p {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .truva-welcome-section {
+        padding: 80px 0px 0px 0px;
+    }
+
+    .visa-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .visamain-image {
+        width: 100%;
+        height: 300px;
+        border-radius: 25px;
+    }
+
+    .images-package img {
+        width: 170px;
+    }
+
+    .packgeshighlit {
+        height: 360px !important;
+    }
+
+    .button-block {
+        display: flex;
+        align-items: center;
+        grid-gap: 30px;
+        margin-top: 30px;
+    }
+
+    .invest-grey-round {
+        height: 90px;
+        width: 90px;
+        margin-top: -45px;
+    }
+
+    .main-visa-title h2 {
+        margin-bottom: 40px;
+    }
+
+    .testimonial-header img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .name-box {
+        padding: 10px 29px 10px 60px;
+        max-width: 200px;
+        margin-left: -50px;
+    }
+
+    .quote-icon img {
+        width: 50px;
+        height: 42px;
+    }
+
+    .cardblock {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        align-items: center;
+    }
+
+    .usainner-block {
+        grid-template-columns: 1fr;
+    }
+
+    .programs-offered-common {
+        display: grid;
+        grid-template-columns: 450px auto;
+        padding: 0;
+        gap: 70px;
+    }
+
+    .image-box img {
+        width: 450px;
+        height: 450px;
+    }
+
+    .acadamic-grid .checkmark {
+        display: none;
+    }
+
+    .text-section ul li {
+        position: relative;
+    }
+
+    .text-section ul li::after {
+        content: "✔";
+        position: absolute;
+        color: var(--primary-color);
+        font-size: var(--font-18px);
+        background: var(--blue-color);
+        padding: 3px;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        left: 0px;
+    }
+
+    .acadamic-grid .criteria-list li {
+        padding-left: 36px;
+    }
+
+    .language-section {
+        display: grid;
+        grid-template-columns: auto 460px;
+        gap: 70px;
+    }
+
+    .language-image img {
+        width: 450px;
+        height: 310px;
+    }
+
+    .inqueryfoem-block {
+        display: grid;
+        grid-template-columns: auto 300px;
+        grid-gap: 30px;
+    }
+
+    .input-field {
+        padding: 9px 12px;
+
+        border-radius: 20px;
+        width: 100%;
+        outline: none;
+        height: 40px;
+    }
+
+    .inquery-common {
+        padding: 40px 50px 50px 50px;
+        border-radius: 25px;
+    }
+
+    .inquery-images img {
+        height: 310px;
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .footer-manu ul li a {
+        font-size: 14px;
+    }
+
+    .eligliblity-detail,
+    .acadamic-detail {
+        padding: 30px;
+    }
+
+    .work-opperctunity-detail .eligliblity-detail,
+    .work-opperctunity-detail .acadamic-detail {
+        min-height: 320px;
+    }
+
+    .academic-intact-visa {
+        display: grid;
+        grid-template-columns: 360px auto;
+        grid-gap: 30px;
+        align-items: center;
+    }
+
+    .academic-intact-visa .image img {
+        width: 360px;
+    }
+
+    .card-container img {
+        max-width: 770px;
+    }
+
+    .footer-inner-detail {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 100px;
+        grid-row-gap: 50px;
+    }
+
+    .contact-info-container {
+        gap: 30px;
+        padding: 40px 0px;
+    }
+
+    .main-banner-common {
+        height: 380px !important;
+    }
+
+    .visa-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .truva-container-immigrate {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .main-immigrate-page .visa-card {
+        grid-gap: 50px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {}
+
+@media only screen and (max-width: 991px) {
+
+    :root {
+        --font-80px: 44px;
+        --font-68px: 42px;
+
+        --font-66px: 42px;
+        --font-60px: 40px;
+        --font-48px: 36px;
+       --font-30px: 26px;
+        --font-28px: 26px;
+        --font-26px: 24px;
+        --font-24px: 20px;
+        --font-22px: 18px;
+        --font-20px: 18px;
+        --font-18px: 14px;
+        --font-16px: 14px;
+        --font-14px: 14px;
+        --font-12px: 12px;
+    }
+
+    .button-mobile>div:first-of-type {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .ms-auto.main-navbar-data.items-center.navbar-nav a:not(:last-child),
+    .nav-item.dropdown {
+        border-bottom: 1px solid;
+        width: 100%;
+        padding: 5px 0px;
+    }
+
+    .nav-item.dropdown:first-child {
+        border-bottom: 1px solid;
+        width: 100%;
+        padding: 5px 0px;
+    }
+
+    .dropdown-menu {
+        border: none;
+        background: transparent;
+    }
+
+    .dropdown-item {
+        padding: 0;
+    }
+
+    .main-navbar-data {
+        grid-gap: 30px;
+        justify-content: flex-start;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .firstwelcome {
+        width: 272px;
+        height: 328px;
+        border-radius: 25px;
+        margin-left: 60px;
+    }
+
+    .visa-section {
+        padding: 40px 0px;
+    }
+
+    .main-banner {
+        height: 400px !important;
+    }
+    .banner-detail-title p {
+    margin-bottom: 30px;
+        max-width: 520px;
+}
+    .serviceinner-card-details p {
+        height: 65px;
+    }
+    .packages-data {
+    display: flex
+;
+    grid-gap: 30px;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+}
+.packgeshighlit {
+        height: 510px !important;
+    }
+    .input-textarea {
+    border-radius: 10px;
+    height: 170px;
+}
+    .inquery-images img {
+        height: 230px;
+        width: 100%;
+        border-radius: 25px;
+    }
+    .international-main .serviceinner-card-details p {
+    margin-bottom: 20px;
+    height: 60px;
+}
+    .programs-offered-common {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+        gap: 30px;
+    }
+        .image-box img {
+        width: 100%;
+        height: auto;
+    }
+    .acadamic-grid {
+    flex-direction: column;
+}
+    .language-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+        .language-image img {
+        width: 100%;
+        height: auto;
+    }
+    .language-text h2 br{
+        display: none;
+    }
+    .language-text h2{
+        max-width: 100%;
+    }
+    .language-text table{
+        width: 100%;
+    }
+    .data-benefit-usa {
+    grid-template-columns: 1fr;
+}
+    .academic-intact-visa {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        align-items: center;
+    }
+    .academic-intact-visa .image img{
+        width: 100%;
+    }
+        .card-container img {
+        max-width: 100%;
+    }
+    .study-grid {
+        gap: 15px;
+    }
+    .info-box p {
+    font-size: var(--font-18px);
+    max-width: 200px;
+}
+    .divider {
+        height: 100px;
+    }
+    .main-immigrate-page .visa-card {
+    display: grid
+;
+    grid-template-columns: 1fr;
+    grid-gap: 70px;
+    align-items: center;
+}
+   .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+}
+
+@media only screen and (max-width: 800px) {
+      :root {
+        --font-80px: 44px;
+        --font-68px: 42px;
+
+        --font-66px: 42px;
+        --font-60px: 40px;
+        --font-48px: 36px;
+
+        --font-28px: 26px;
+        --font-26px: 24px;
+        --font-24px: 20px;
+        --font-22px: 17px;
+        --font-20px: 16px;
+        --font-18px: 14px;
+        --font-16px: 14px;
+        --font-14px: 14px;
+        --font-12px: 12px;
+    }
+
+        .secondwelcome {
+        right: 120px;
+    }
+        .visamain-image {
+        width: 100%;
+        height: 230px;
+        border-radius: 25px;
+    }
+        .testmonial-section {
+        padding: 60px 0 60px 0px;
+    }
+        .truva-welcome-section {
+        padding: 60px 0px 0px 0px;
+    }
+        .main-banner-common {
+        height: 290px !important;
+    }
+        .domestic-galary {
+        padding: 60px 0px;
+    }
+    .inquery-common-main {
+    padding: 0 0 60px 0px;
+}
+.international-main .visa-card {
+    padding: 60px 0px;
+}
+.canada-language {
+        padding: 60px 0 60px 0;
+    }
+.study-country-main {
+    padding: 0 0 60px 0;
+}
+.study-title {
+    margin-bottom: 50px;
+}
+.subtitle {
+    margin-bottom: 60px;
+}
+.card-container {
+    padding: 60px 0px;
+}
+    .estementcost {
+        padding: 0 0 60px 0;
+    }
+    .visa-requermeant {
+        padding: 0 0 60px 0;
+    }
+    .eligliblity-detail, .acadamic-detail {
+        min-height: 320px;
+    }
+    .eligliblity-detail, .acadamic-detail {
+        min-height: 270px;
+    }
+        .canadapage-datablock .eligliblity-detail, .canadapage-datablock .acadamic-detail {
+        min-height: 300px;
+    }
+    .visa-bannerdata {
+    padding: 0 0 60px 0;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    :root {
+        --font-80px: 44px;
+        --font-68px: 42px;
+
+        --font-66px: 42px;
+        --font-60px: 40px;
+        --font-48px: 32px;
+       --font-30px: 24px;
+        --font-28px: 22px;
+        --font-26px: 20px;
+        --font-24px: 20px;
+        --font-22px: 17px;
+        --font-20px: 16px;
+        --font-18px: 14px;
+        --font-16px: 14px;
+        --font-14px: 14px;
+        --font-12px: 12px;
+    }
+
+        .footer-inner-detail {
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+    }
+    .footer-main {
+    padding: 20px 0 0 0;
+    background: var(--blue-color);
+}
+.contact-container {
+        padding: 40px 40px;
+        margin: 40px 0px;
+    }
+    .contact-info-container {
+        gap: 20px;
+        padding: 0px;
+    }
+        .cardblock {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        align-items: center;
+    }
+        .eligliblity-detail, .acadamic-detail {
+        width: 100%;
+    }
+        .study-grid {
+        gap: 10px;
+    }
+        .acadamic-datablock {
+        padding: 60px 0px;
+    }
+    .fields-section .title {
+    color: var(--blue-color);
+    font-size: var(--font-48px);
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.info-box p {
+        max-width: unset;
+    }
+    .banner-detail-title h2 br{
+        display: none;
+    }
+    .firstwelcome {
+        width: 272px;
+        height: 328px;
+        border-radius: 25px;
+        margin-left: 20px;
+    }
+        .secondwelcome {
+        right: 14px;
+    }
+        .visa-card {
+        display: grid
+;
+        grid-template-columns: 1fr;
+    }
+        .visamain-image {
+        width: 100%;
+        height: 350px;
+        border-radius: 25px;
+    }
+        .packgeshighlit {
+        height: 570px !important;
+    }
+        .inqueryfoem-block {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+    .usainner-images img {
+        width: 100%;
+    }
+        .visa-container {
+        display: grid
+;
+        grid-template-columns: 1fr;
+    }
+   
+        .visamain-image {
+        width: 100%;
+        height: 330px;
+        border-radius: 25px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+        :root {
+        --font-80px: 40px;
+        --font-68px: 38px;
+        --font-66px: 38px;
+        --font-60px: 36px;
+        }
+            .firstwelcome {
+        width: 222px;
+        height: 258px;
+        border-radius: 25px;
+        margin-left: 0px;
+    }
+        .secondwelcome {
+        right: 50px;
+        bottom: -70px;
+        width: 247px;
+        height: 170px;
+    }
+    .serviceinner-card-details h3 {
+    margin-bottom: 14px;
+    margin-top: 10px;
+}
+.serviceinner-card-details {
+    padding: 0px 20px 20px 20px;
+}
+.card-section-main {
+    padding: 50px 0px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+        :root {
+        --font-80px: 32px;
+        --font-68px: 32px;
+        --font-66px: 32px;
+        --font-60px: 30px;
+        --font-46px: 28px;
+        --font-26px: 20px;
+    }
+    .images-package img {
+        width: 140px;
+    }
+        .button-block {
+        display: flex;
+        align-items: flex-start;
+        grid-gap: 15px;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .quote-icon img {
+        width: 20px;
+        height: 18px;
+    }
+        .quote-icon {
+        right: -11px;
+        top: -18px;
+    }
+        .main-banner-common {
+        height: 200px !important;
+    }
+        .work-text .icon-circle img {
+        width: 40px;
+        height: 40px;
+    }
+    .work-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+.work-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+    .fields-section .title {
+        margin-bottom: 20px;
+    }
+    .europ-detail-section.fields-section .field:nth-child(7), .europ-detail-section.fields-section .field:nth-child(8), .europ-detail-section.fields-section .field:nth-child(9) {
+  border-bottom: 1px dashed #ddd;
+}
+    .main-usa-data {
+        padding: 40px 0px;
+    }
+    .gallery-container{
+        padding: 0;
+    }
+    .inquery-common{
+        padding: 20px;
+    }
+    .contact-container {
+        padding: 20px;
+    }
+        .contact-info-container .icon-circle {
+        width: 60px;
+        height: 60px;
+    }
+    .social-media ul li a img {
+    width: 35px;
+    height: 35px;
+}
+.logo-footer img {
+    width: 200px;
+    height: 100px;
+}
+    .header-logo {
+        width: 140px;
+    }
+    .navbar-toggler-icon {
+    width: 25px;
+    height: 25px;
+}
+}
+
+@media only screen and (max-width: 389px) {
+        :root {
+        --font-80px: 31px;
+        
+    }
+        .secondwelcome {
+        right: 13px;
+        bottom: -70px;
+        width: 227px;
+        height: 150px;
+    }
+        .firstwelcome {
+        width: 180px;
+        height: 238px;
+        border-radius: 25px;
+        margin-left: 0px;
+    }
+    .banner-detail-title p {
+    font-size: 14px;
+    }
+        .main-banner {
+        height: 330px !important;
+    }
+        .header-logo {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+      :root {
+        --font-80px: 27px;
+        --font-68px: 30px;
+        --font-66px: 30px;
+        --font-60px: 30px;
+        
+    }
+        .images-package {
+        display: flex
+;
+        grid-gap: 30px;
+    }
+        .images-package img {
+        width: 120px;
+    }
+        .packgeshighlit {
+        height: 600px !important;
+    }
+    .testimonial-card {
+    padding: 16px;
+}
+}

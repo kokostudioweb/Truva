@@ -34,7 +34,7 @@ Packages </h2>
                 </div>
                 
                 </div>
-                <div className="main-galary-section">
+                <div className="main-galary-section domestic-galary ">
 <Gallery />
                 </div>
                  

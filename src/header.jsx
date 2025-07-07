@@ -20,10 +20,10 @@ const Header = () => {
     <div className="main-header-section">
       <div className="truva-container">
         <div className="main-header-inner">
-        <Navbar expand="lg" >
+        <Navbar className='button-mobile' expand="lg" >
      
        <div>
-         <Navbar.Brand href="#home"><img src={truvaheaderlogo} alt="truvaheaderlogo" /></Navbar.Brand>
+         <Navbar.Brand href="#home"><img className='header-logo' src={truvaheaderlogo} alt="truvaheaderlogo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
        </div>
         <Navbar.Collapse id="basic-navbar-nav">

@@ -61,7 +61,11 @@ const Bali = () => {
                         </div>
                       </div>
                 <div className="main-galary-section">
+                  <div className="truva-container">
+
+                 
 <BaliGallary />
+ </div>
                 </div>
                  
                 {/* <div className="inquery-common-main">

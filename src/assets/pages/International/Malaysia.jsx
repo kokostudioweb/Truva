@@ -59,7 +59,11 @@ const Malaysia = () => {
                         </div>
                       </div>
                 <div className="main-galary-section">
+                  <div className="truva-container">
+
+                 
 <MalaysiaGallary />
+ </div>
                 </div>
                  
                 {/* <div className="inquery-common-main">

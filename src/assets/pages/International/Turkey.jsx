@@ -59,7 +59,11 @@ const Turkey = () => {
                                         </div>
                                       </div>
                 <div className="main-galary-section">
+                  <div className="truva-container">
+
+                  
 <TurkeyGallary/>
+</div>
                 </div>
                  
                 {/* <div className="inquery-common-main">
