@@ -2073,13 +2073,13 @@ color: var(--blue-color);
 
 /* Name and location background */
 .name-box {
-    background-color: #D2D6FF;
-   padding: 14px 30px 14px 60px;
+      background-color: #D2D6FF;
+    padding: 14px 30px 14px 30px;
     border-radius: 40px;
     flex-grow: 1;
-    max-width: 220px;
-    /* text-align: center; */
-    margin-left: -50px;
+    max-width: 190px;
+    margin-left: 0px;
+    text-align: center;
 }
 
 .name-box h4 {
@@ -2104,8 +2104,8 @@ color: var(--blue-color);
 .quote-icon img {
  border-radius: unset;
  object-fit: fill;
- width: 90px;
-    height: 80px;
+ width: 60px;
+    height: 50px;
 }
 
 /* Testimonial text */
