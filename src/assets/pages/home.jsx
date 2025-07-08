@@ -20,6 +20,7 @@ import packageone from '../images/packageone.png';
 import packagetwo from '../images/packagetwo.png';
 import Footer from './footer';
 import TestimonialSlider from '../../component/TestimonialSlider';
+import WhyChooseUs from '../../component/whychooseus';
 
 
 
@@ -202,11 +203,11 @@ Let us make your process smooth, transparent, and truly world-class.</p>
         </div>
         </div>
      </div>
-     {/* <div className="whychooes-section">
-      <div className="main-visa-title">
-        <h2>Why Choose Us</h2>
-    </div>
-     </div> */}
+     <div className="whychooes-section">
+      <div className="truva-container">
+     <WhyChooseUs/>
+     </div>
+     </div>
      <div className="testmonial-section">
       <div className="truva-container">
       <div className="main-visa-title">

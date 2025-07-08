@@ -323,6 +323,38 @@
         width: 22px;
     }
 
+    .main-chooseus .card {
+        height: 170px;
+        padding: 20px 24px 20px 40px;
+        width: 360px;
+    }
+
+    .main-chooseus .card.left {
+        padding: 20px 30px 20px 24px;
+    }
+
+    .main-chooseus .icon-box img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .main-chooseus .card.left .icon-box {
+        position: absolute;
+        top: -20px;
+        left: unset;
+        right: -30px;
+    }
+
+    .main-chooseus .icon-box {
+        position: absolute;
+        top: -20px;
+        left: -30px;
+    }
+
+    .center-image {
+        width: 360px;
+        height: 360px;
+    }
 
 }
 
@@ -518,6 +550,10 @@
         padding: 80px 0px;
     }
 
+    .center-image {
+        width: 340px;
+        height: 340px;
+    }
 
 }
 
@@ -776,6 +812,46 @@
     .main-immigrate-page .visa-card {
         grid-gap: 50px;
     }
+
+    .main-chooseus .card {
+        height: 140px;
+        width: 480px;
+    }
+
+    /* .main-chooseus .card.left{
+        margin-left: 0;
+    } */
+    .main-chooseus .cards-column{
+        width: auto;
+    }
+    /* .card.left.card-end-to-end-visa-assistance.animate {
+
+        margin-left: 0px;
+    }
+
+    .card.left.card-100-transparency.animate {
+
+        margin-left: 0;
+    }
+
+    .card.left.card-travel-packages-tailored-for-you.animate {
+        margin-left: 0;
+    }
+
+    .card.right.card-experienced-consultants-travel-experts.animate {
+        margin-right: 0;
+    }
+
+    .card.right.card-global-reach-with-local-insight.animate {
+        margin-right: 0;
+    }
+
+    .card.right.card-fast-reliable-processing.animate {
+        margin-right: 0;
+    } */
+     .whychooes-section {
+    padding: 80px 0px 0px 0px;
+}
 }
 
 @media only screen and (max-width: 1023px) {}
@@ -789,7 +865,7 @@
         --font-66px: 42px;
         --font-60px: 40px;
         --font-48px: 36px;
-       --font-30px: 26px;
+        --font-30px: 26px;
         --font-28px: 26px;
         --font-26px: 24px;
         --font-24px: 20px;
@@ -851,126 +927,154 @@
     .main-banner {
         height: 400px !important;
     }
+
     .banner-detail-title p {
-    margin-bottom: 30px;
+        margin-bottom: 30px;
         max-width: 520px;
-}
+    }
+
     .serviceinner-card-details p {
         height: 65px;
     }
+
     .packages-data {
-    display: flex
-;
-    grid-gap: 30px;
-    align-items: flex-start;
-    flex-direction: column-reverse;
-}
-.packgeshighlit {
+        display: flex;
+        grid-gap: 30px;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+    }
+
+    .packgeshighlit {
         height: 510px !important;
     }
+
     .input-textarea {
-    border-radius: 10px;
-    height: 170px;
-}
+        border-radius: 10px;
+        height: 170px;
+    }
+
     .inquery-images img {
         height: 230px;
         width: 100%;
         border-radius: 25px;
     }
+
     .international-main .serviceinner-card-details p {
-    margin-bottom: 20px;
-    height: 60px;
-}
+        margin-bottom: 20px;
+        height: 60px;
+    }
+
     .programs-offered-common {
         display: grid;
         grid-template-columns: 1fr;
         padding: 0;
         gap: 30px;
     }
-        .image-box img {
+
+    .image-box img {
         width: 100%;
         height: auto;
     }
+
     .acadamic-grid {
-    flex-direction: column;
-}
+        flex-direction: column;
+    }
+
     .language-section {
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
     }
-        .language-image img {
+
+    .language-image img {
         width: 100%;
         height: auto;
     }
-    .language-text h2 br{
+
+    .language-text h2 br {
         display: none;
     }
-    .language-text h2{
+
+    .language-text h2 {
         max-width: 100%;
     }
-    .language-text table{
+
+    .language-text table {
         width: 100%;
     }
+
     .data-benefit-usa {
-    grid-template-columns: 1fr;
-}
+        grid-template-columns: 1fr;
+    }
+
     .academic-intact-visa {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 30px;
         align-items: center;
     }
-    .academic-intact-visa .image img{
+
+    .academic-intact-visa .image img {
         width: 100%;
     }
-        .card-container img {
+
+    .card-container img {
         max-width: 100%;
     }
+
     .study-grid {
         gap: 15px;
     }
+
     .info-box p {
-    font-size: var(--font-18px);
-    max-width: 200px;
-}
+        font-size: var(--font-18px);
+        max-width: 200px;
+    }
+
     .divider {
         height: 100px;
     }
+
     .main-immigrate-page .visa-card {
-    display: grid
-;
-    grid-template-columns: 1fr;
-    grid-gap: 70px;
-    align-items: center;
-}
-   .navbar-toggler:focus {
-    text-decoration: none;
-    outline: 0;
-    box-shadow: none;
-}
-.estementcost, .visa-requermeant {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 70px;
+        align-items: center;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .estementcost,
+    .visa-requermeant {
         padding: 0 0 30px;
     }
+
     .cose-block-grid {
-    grid-gap: 0px;
-    grid-template-columns: 1fr;
-}
+        grid-gap: 0px;
+        grid-template-columns: 1fr;
+    }
+
     .academic-intact {
         grid-gap: 50px;
         display: flex;
         flex-direction: column-reverse;
     }
+
     .academic-intact .image img {
         width: 100%;
     }
+
     .academic-intact-main {
-    padding: 0px 0px 60px 0px;
-}
+        padding: 0px 0px 60px 0px;
+    }
 }
 
 @media only screen and (max-width: 800px) {
-      :root {
+    :root {
         --font-80px: 44px;
         --font-68px: 42px;
 
@@ -989,64 +1093,92 @@
         --font-12px: 12px;
     }
 
-        .secondwelcome {
+    .secondwelcome {
         right: 120px;
     }
-        .visamain-image {
+
+    .visamain-image {
         width: 100%;
         height: 230px;
         border-radius: 25px;
     }
-        .testmonial-section {
+
+    .testmonial-section {
         padding: 60px 0 60px 0px;
     }
-        .truva-welcome-section {
+
+    .truva-welcome-section {
         padding: 60px 0px 0px 0px;
     }
-        .main-banner-common {
+
+    .main-banner-common {
         height: 290px !important;
     }
-        .domestic-galary {
+
+    .domestic-galary {
         padding: 60px 0px;
     }
+
     .inquery-common-main {
-    padding: 0 0 60px 0px;
-}
-.international-main .visa-card {
-    padding: 60px 0px;
-}
-.canada-language {
+        padding: 0 0 60px 0px;
+    }
+
+    .international-main .visa-card {
+        padding: 60px 0px;
+    }
+
+    .canada-language {
         padding: 60px 0 60px 0;
     }
-.study-country-main {
-    padding: 0 0 60px 0;
-}
-.study-title {
-    margin-bottom: 50px;
-}
-.subtitle {
-    margin-bottom: 60px;
-}
-.card-container {
-    padding: 60px 0px;
-}
+
+    .study-country-main {
+        padding: 0 0 60px 0;
+    }
+
+    .study-title {
+        margin-bottom: 50px;
+    }
+
+    .subtitle {
+        margin-bottom: 60px;
+    }
+
+    .card-container {
+        padding: 60px 0px;
+    }
+
     .estementcost {
         padding: 0 0 60px 0;
     }
+
     .visa-requermeant {
         padding: 0 0 60px 0;
     }
-    .eligliblity-detail, .acadamic-detail {
+
+    .eligliblity-detail,
+    .acadamic-detail {
         min-height: 320px;
     }
-    .eligliblity-detail, .acadamic-detail {
+
+    .eligliblity-detail,
+    .acadamic-detail {
         min-height: 270px;
     }
-        .canadapage-datablock .eligliblity-detail, .canadapage-datablock .acadamic-detail {
+
+    .canadapage-datablock .eligliblity-detail,
+    .canadapage-datablock .acadamic-detail {
         min-height: 300px;
     }
+
     .visa-bannerdata {
-    padding: 0 0 60px 0;
+        padding: 0 0 60px 0;
+    }
+    .main-chooseus .cards-column {
+    gap: 40px;
+
+}
+.center-image{
+    margin: 0;
 }
 }
 
@@ -1058,7 +1190,7 @@
         --font-66px: 42px;
         --font-60px: 40px;
         --font-48px: 32px;
-       --font-30px: 24px;
+        --font-30px: 24px;
         --font-28px: 22px;
         --font-26px: 20px;
         --font-24px: 20px;
@@ -1070,86 +1202,103 @@
         --font-12px: 12px;
     }
 
-        .footer-inner-detail {
+    .footer-inner-detail {
         grid-template-columns: 1fr;
         grid-row-gap: 30px;
     }
+
     .footer-main {
-    padding: 20px 0 0 0;
-    background: var(--blue-color);
-}
-.contact-container {
+        padding: 20px 0 0 0;
+        background: var(--blue-color);
+    }
+
+    .contact-container {
         padding: 40px 40px;
         margin: 40px 0px;
     }
+
     .contact-info-container {
         gap: 20px;
         padding: 0px;
     }
-        .cardblock {
+
+    .cardblock {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 50px;
         align-items: center;
     }
-        .eligliblity-detail, .acadamic-detail {
+
+    .eligliblity-detail,
+    .acadamic-detail {
         width: 100%;
     }
-        .study-grid {
+
+    .study-grid {
         gap: 10px;
     }
-        .acadamic-datablock {
+
+    .acadamic-datablock {
         padding: 60px 0px;
     }
+
     .fields-section .title {
-    color: var(--blue-color);
-    font-size: var(--font-48px);
-    margin-bottom: 50px;
-    font-weight: 600;
-}
-.info-box p {
+        color: var(--blue-color);
+        font-size: var(--font-48px);
+        margin-bottom: 50px;
+        font-weight: 600;
+    }
+
+    .info-box p {
         max-width: unset;
     }
-    .banner-detail-title h2 br{
+
+    .banner-detail-title h2 br {
         display: none;
     }
+
     .firstwelcome {
         width: 272px;
         height: 328px;
         border-radius: 25px;
         margin-left: 20px;
     }
-        .secondwelcome {
+
+    .secondwelcome {
         right: 14px;
     }
-        .visa-card {
-        display: grid
-;
+
+    .visa-card {
+        display: grid;
         grid-template-columns: 1fr;
     }
-        .visamain-image {
+
+    .visamain-image {
         width: 100%;
         height: 350px;
         border-radius: 25px;
     }
-        .packgeshighlit {
+
+    .packgeshighlit {
         height: 570px !important;
     }
-        .inqueryfoem-block {
+
+    .inqueryfoem-block {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 30px;
     }
+
     .usainner-images img {
         width: 100%;
     }
-        .visa-container {
-        display: grid
-;
+
+    .visa-container {
+        display: grid;
         grid-template-columns: 1fr;
     }
-   
-        .visamain-image {
+
+    .visamain-image {
         width: 100%;
         height: 330px;
         border-radius: 25px;
@@ -1158,46 +1307,66 @@
 
 @media only screen and (max-width: 575px) {
 
-        :root {
+    :root {
         --font-80px: 40px;
         --font-68px: 38px;
         --font-66px: 38px;
         --font-60px: 36px;
-        }
-            .firstwelcome {
+    }
+
+    .firstwelcome {
         width: 222px;
         height: 258px;
         border-radius: 25px;
         margin-left: 0px;
     }
-        .secondwelcome {
+
+    .secondwelcome {
         right: 50px;
         bottom: -70px;
         width: 247px;
         height: 170px;
     }
+
     .serviceinner-card-details h3 {
-    margin-bottom: 14px;
-    margin-top: 10px;
+        margin-bottom: 14px;
+        margin-top: 10px;
+    }
+
+    .serviceinner-card-details {
+        padding: 0px 20px 20px 20px;
+    }
+
+    .card-section-main {
+        padding: 50px 0px;
+    }
+
+    .contacblock-detail .map-section iframe {
+        height: 250px;
+        margin-bottom: 0px;
+    }
+
+    .contacblock-detail {
+        gap: 40px;
+        align-items: center;
+    }
+        .main-chooseus .card {
+        height: auto;
+        width: 100%;
+    }
+    .main-chooseus h2 {
+    margin-bottom: 30px;
 }
-.serviceinner-card-details {
-    padding: 0px 20px 20px 20px;
+.why-container{
+    padding: 0 20px 0 20px;
 }
-.card-section-main {
-    padding: 50px 0px;
-}
-.contacblock-detail .map-section iframe {
-    height: 250px;
-    margin-bottom: 0px;
-}
-.contacblock-detail {
-    gap: 40px;
-    align-items: center;
+.whychooes-section {
+    padding: 50px 0px 0px 0px;
 }
 }
 
 @media only screen and (max-width: 480px) {
-        :root {
+    :root {
         --font-80px: 32px;
         --font-68px: 32px;
         --font-66px: 32px;
@@ -1205,163 +1374,240 @@
         --font-46px: 28px;
         --font-26px: 20px;
     }
+
     .images-package img {
         width: 140px;
     }
-        .button-block {
+
+    .button-block {
         display: flex;
         align-items: flex-start;
         grid-gap: 15px;
         margin-top: 30px;
         flex-direction: column;
     }
+
     .quote-icon img {
         width: 20px;
         height: 18px;
     }
-        .quote-icon {
+
+    .quote-icon {
         right: -11px;
         top: -18px;
     }
-        .main-banner-common {
+
+    .main-banner-common {
         height: 200px !important;
     }
-        .work-text .icon-circle img {
+
+    .work-text .icon-circle img {
         width: 40px;
         height: 40px;
     }
+
     .work-item:not(:last-child) {
-    margin-bottom: 20px;
-}
-.work-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
+        margin-bottom: 20px;
+    }
+
+    .work-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
     .fields-section .title {
         margin-bottom: 20px;
     }
-    .europ-detail-section.fields-section .field:nth-child(7), .europ-detail-section.fields-section .field:nth-child(8), .europ-detail-section.fields-section .field:nth-child(9) {
-  border-bottom: 1px dashed #ddd;
-}
+
+    .europ-detail-section.fields-section .field:nth-child(7),
+    .europ-detail-section.fields-section .field:nth-child(8),
+    .europ-detail-section.fields-section .field:nth-child(9) {
+        border-bottom: 1px dashed #ddd;
+    }
+
     .main-usa-data {
         padding: 40px 0px;
     }
-    .gallery-container{
+
+    .gallery-container {
         padding: 0;
     }
-    .inquery-common{
+
+    .inquery-common {
         padding: 20px;
     }
+
     .contact-container {
         padding: 20px;
     }
-        .contact-info-container .icon-circle {
+
+    .contact-info-container .icon-circle {
         width: 60px;
         height: 60px;
     }
+
     .social-media ul li a img {
-    width: 35px;
-    height: 35px;
-}
-.logo-footer img {
-    width: 200px;
-    height: 100px;
-}
+        width: 35px;
+        height: 35px;
+    }
+
+    .logo-footer img {
+        width: 200px;
+        height: 100px;
+    }
+
     .header-logo {
         width: 140px;
     }
+
     .navbar-toggler-icon {
-    width: 25px;
-    height: 25px;
-}
+        width: 25px;
+        height: 25px;
+    }
+
     .visamain-image {
         width: 100%;
         height: 250px;
         border-radius: 25px;
     }
+    .why-container{
+        padding: 0;
+    }
+        .main-chooseus .card.left {
+        padding: 10px 20px 10px 14px;
+    }
+        .main-chooseus .icon-box img {
+        width: 50px;
+        height: 50px;
+    }
+        .main-chooseus .card.left .icon-box {
+        position: absolute;
+        top: -14px;
+        left: unset;
+        right: -20px;
+    }
+        .center-image {
+        width: 250px;
+        height: 250px;
+    }
+        .main-chooseus .cards-column {
+        width: 280px;
+    }
+    .whychooes-section {
+    padding: 40px 0px 0px 0px;
+}
+    .main-chooseus .icon-box {
+        position: absolute;
+        top: -13px;
+        left: -20px;
+    }
 }
 
 @media only screen and (max-width: 389px) {
-        :root {
+    :root {
         --font-80px: 31px;
-                --font-20px: 14px;
-        
+        --font-20px: 14px;
+
     }
-        .secondwelcome {
+
+    .secondwelcome {
         right: 13px;
         bottom: -70px;
         width: 227px;
         height: 150px;
     }
-        .firstwelcome {
+
+    .firstwelcome {
         width: 180px;
         height: 238px;
         border-radius: 25px;
         margin-left: 0px;
     }
+
     .banner-detail-title p {
-    font-size: 14px;
+        font-size: 14px;
     }
-        .main-banner {
+
+    .main-banner {
         height: 330px !important;
     }
-        .header-logo {
+
+    .header-logo {
         width: 120px;
     }
+
     .heading {
-    font-size: 26px;
-}
-.subheading {
-    margin-bottom: 30px;
-}
-.contacblock-detail input, .contacblock-detail select, .contacblock-detail textarea {
-    padding: 10px 20px;
- 
-}
-.contacblock-detail button {
-    padding: 10px 23px;
-}
+        font-size: 26px;
+    }
+
+    .subheading {
+        margin-bottom: 30px;
+    }
+
+    .contacblock-detail input,
+    .contacblock-detail select,
+    .contacblock-detail textarea {
+        padding: 10px 20px;
+
+    }
+
+    .contacblock-detail button {
+        padding: 10px 23px;
+    }
+
     .canada-language {
         padding: 40px 0 40px 0;
     }
+
     .academic-intact-main {
-    padding: 0px 0px 40px 0px;
-}
+        padding: 0px 0px 40px 0px;
+    }
+
     .visa-requermeant {
         padding: 0 0 40px 0;
     }
-        .estementcost {
+
+    .estementcost {
         padding: 0 0 20px 0;
     }
+
     .eastement-inner h2 {
-    font-size: 30px;
-}
+        font-size: 30px;
+    }
+
     .ausvisa-subclass {
         padding-left: 0px;
     }
 }
 
 @media only screen and (max-width: 374px) {
-      :root {
+    :root {
         --font-80px: 27px;
         --font-68px: 30px;
         --font-66px: 30px;
         --font-60px: 30px;
-        
+
     }
-        .images-package {
-        display: flex
-;
+
+    .images-package {
+        display: flex;
         grid-gap: 30px;
     }
-        .images-package img {
+
+    .images-package img {
         width: 120px;
     }
-        .packgeshighlit {
+
+    .packgeshighlit {
         height: 600px !important;
     }
+
     .testimonial-card {
-    padding: 16px;
-}
+        padding: 16px;
+    }
+        .main-chooseus .cards-column {
+        width: 260px;
+        padding: 0px 10px;
+    }
 }
