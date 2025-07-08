@@ -94,21 +94,21 @@ style={{
 <div className="truva-container">
     <div className="banner-detail-title">
     <h2>Your Gateway to Global <br /> Opportunities & Dream <br /> Holidays</h2>
-    <p>Empowering your global journey with expert visa solutions and unforgettable travel experiences. From student visas to dream holidays - we handle it all, effortlessly.</p>
+    {/* <p>Empowering your global journey with expert visa solutions and unforgettable travel experiences. From student visas to dream holidays - we handle it all, effortlessly.</p>
     <button className='blue-button-fill' onClick={handleClick}>
                 Contact Us
-              </button>
+              </button> */}
 </div>
 </div>
 </div>
-<div className="truva-welcome-section" >
+<div className="truva-welcome-section"id='welcomeabout' >
 <div className="truva-container">
     <div className="welcome-block">
         <div className="welcome-image">
             <img className='firstwelcome' src={welcomeone} alt="welcomeone" />
             <img className='secondwelcome' src={welcometwo} alt="welcometwo" />
         </div>  
-        <div className="welcome-detail" id='welcomeabout'>
+        <div className="welcome-detail" >
             <h2>Welcome to Truva Overseas</h2>
             <p>At Truva Overseas, we open doors to new journeys - whether you're looking to study, work, or explore the world. With years of expertise in visa consulting and a curated portfolio of international & domestic travel services, we’re here to guide you through every step of your global aspirations.
 Let us make your process smooth, transparent, and truly world-class.</p>
