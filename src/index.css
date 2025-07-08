@@ -1649,8 +1649,8 @@ grid-template-columns: 800px auto;
     border-bottom: 1px dashed #ddd;
   }
 
-  .fields-section .field:last-child {
-    border-bottom: none;
+  .fields-section .field:not(:last-child) {
+      border-bottom: 1px dashed #ddd;
   }
 }
 

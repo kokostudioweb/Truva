@@ -949,6 +949,24 @@
     outline: 0;
     box-shadow: none;
 }
+.estementcost, .visa-requermeant {
+        padding: 0 0 30px;
+    }
+    .cose-block-grid {
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+}
+    .academic-intact {
+        grid-gap: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .academic-intact .image img {
+        width: 100%;
+    }
+    .academic-intact-main {
+    padding: 0px 0px 60px 0px;
+}
 }
 
 @media only screen and (max-width: 800px) {
@@ -1168,6 +1186,14 @@
 .card-section-main {
     padding: 50px 0px;
 }
+.contacblock-detail .map-section iframe {
+    height: 250px;
+    margin-bottom: 0px;
+}
+.contacblock-detail {
+    gap: 40px;
+    align-items: center;
+}
 }
 
 @media only screen and (max-width: 480px) {
@@ -1259,6 +1285,7 @@
 @media only screen and (max-width: 389px) {
         :root {
         --font-80px: 31px;
+                --font-20px: 14px;
         
     }
         .secondwelcome {
@@ -1281,6 +1308,37 @@
     }
         .header-logo {
         width: 120px;
+    }
+    .heading {
+    font-size: 26px;
+}
+.subheading {
+    margin-bottom: 30px;
+}
+.contacblock-detail input, .contacblock-detail select, .contacblock-detail textarea {
+    padding: 10px 20px;
+ 
+}
+.contacblock-detail button {
+    padding: 10px 23px;
+}
+    .canada-language {
+        padding: 40px 0 40px 0;
+    }
+    .academic-intact-main {
+    padding: 0px 0px 40px 0px;
+}
+    .visa-requermeant {
+        padding: 0 0 40px 0;
+    }
+        .estementcost {
+        padding: 0 0 20px 0;
+    }
+    .eastement-inner h2 {
+    font-size: 30px;
+}
+    .ausvisa-subclass {
+        padding-left: 0px;
     }
 }
 
