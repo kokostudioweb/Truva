@@ -403,7 +403,7 @@ color: var(--primary-color);
 }
 .social-media ul{
   display: flex;
- grid-gap: 20px;
+ grid-gap: 10px;
  align-items: center;
  list-style: none;
  padding: 0;
@@ -2388,7 +2388,9 @@ font-size: var(--font-18px);
 }
 .main-banner {
         height: 510px !important;
+        background-position: unset !important;
     }
     .main-banner-common{
       height: 510px !important;
+           background-position: unset !important;
     }

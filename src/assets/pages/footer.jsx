@@ -26,9 +26,9 @@ const Footer = () => {
               <li>
                 <a href=""><img src={facebook} alt="facebook" /></a>
               </li>
-              <li>
+              {/* <li>
                 <a href=""><img src={twitter} alt="twitter" /></a>
-              </li>
+              </li> */}
               <li>
                 <a href=""><img src={linkdin} alt="linkdin" /></a>
               </li>
@@ -71,7 +71,7 @@ const Footer = () => {
             </div>
             <div className="footer-manu">
               <ul>
-                <li><a href="#"><span><img src={maps} alt="maps" /></span>C- 804, Titanium City Center, 100 Feet Rd <br /> Satellite, Ahmedabad, Gujarat 380015</a></li>
+                <li><a href="https://www.google.com/maps?q=C-804,+Titanium+City+Center,+100+Feet+Road,+Satellite,+Ahmedabad,+Gujarat+380015"  target="_blank"><span><img src={maps} alt="maps" /></span>C- 804, Titanium City Center, 100 Feet Rd <br /> Satellite, Ahmedabad, Gujarat 380015</a></li>
                 <li className="d-flex items-center gap-4">
                 <span>
                 <img src={phoneicon} alt="phoneicon" />
