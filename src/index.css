@@ -102,7 +102,7 @@ height: 20px;
 .main-banner{
   /* padding: 100px 0px ; */
   display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .banner-detail-title h2{
@@ -300,7 +300,7 @@ width: 16px;
 transition: 0.4s ease-in-out;
 }
 .serviceinner-card-details button:hover span img{
-  transform: rotate(45deg);
+  transform: rotate(-45deg);
   filter: brightness(0);
 }
 .visamain-image{

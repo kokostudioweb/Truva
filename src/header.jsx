@@ -38,7 +38,7 @@ const Header = () => {
           <Navbar className='button-mobile' expand="lg" >
 
             <div>
-              <Navbar.Brand href="#home"><img className='header-logo' src={truvaheaderlogo} alt="truvaheaderlogo" /></Navbar.Brand>
+              <Navbar.Brand href="\"><img className='header-logo' src={truvaheaderlogo} alt="truvaheaderlogo" /></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
             </div>
             <Navbar.Collapse id="basic-navbar-nav">

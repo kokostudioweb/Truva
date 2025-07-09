@@ -38,6 +38,7 @@ const visaCards = [
 ];
 
 const VisitorVisa = () => {
+  const navigate = useNavigate();
   return (
     <>
      
@@ -97,7 +98,7 @@ const VisitorVisa = () => {
             <div className="overlay">
               <h3>{card.country} Visitor Visa</h3>
               <p>{card.desc}</p>
-              <button>Inquiry now</button>
+              <button onClick={() => navigate('/contactus')}>Inquiry now</button>
             </div>
           </div>
         </div>

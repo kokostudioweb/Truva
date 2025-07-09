@@ -18,6 +18,7 @@ import immeraction from '../images/immeraction.png';
 import holidayimage from '../images/holidayimage.png';
 import packageone from '../images/packageone.png';
 import packagetwo from '../images/packagetwo.png';
+import truvabannerimg from '../images/truvabannerimg.png';
 import Footer from './footer';
 import TestimonialSlider from '../../component/TestimonialSlider';
 import WhyChooseUs from '../../component/whychooseus';
@@ -84,7 +85,7 @@ const navigate = useNavigate();
     </div> */}
     <div className="main-banner"
 style={{
-  backgroundImage: `url(${truvebanner})`,
+  backgroundImage: `url(${truvabannerimg})`,
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   height: '845px',

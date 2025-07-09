@@ -12,31 +12,37 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-     <div className="footer-main">
+    <div className="footer-main">
       <div className="truva-container">
         <div className="footer-inner-detail">
           <div className="footer-detail-common">
             <div className="logo-footer">
               <a href="#"> <img src={footerlogotruva} alt="footerlogotruva" /></a>
-             
+
             </div>
-             <p>Truva Overseas is your trusted partner for global visa solutions and unforgettable travel journeys. With a focus on reliability, personalized service, and success, we make your international plans simple and achievable.</p>
-          <div className="social-media">
-            <ul>
-              <li>
-                <a href=""><img src={facebook} alt="facebook" /></a>
-              </li>
-              {/* <li>
+            <p>Truva Overseas is your trusted partner for global visa solutions and unforgettable travel journeys. With a focus on reliability, personalized service, and success, we make your international plans simple and achievable.</p>
+            <div className="social-media">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/share/15t3p9MAJy/" target="_blank" rel="noopener noreferrer">
+                    <img src={facebook} alt="facebook" />
+                  </a>
+
+                </li>
+                {/* <li>
                 <a href=""><img src={twitter} alt="twitter" /></a>
               </li> */}
-              <li>
-                <a href=""><img src={linkdin} alt="linkdin" /></a>
-              </li>
-              <li>
-                <a href=""><img src={instagram} alt="instagram" /></a>
-              </li>
-            </ul>
-          </div>
+                <li>
+                  <a href=""><img src={linkdin} alt="linkdin" /></a>
+                </li>
+                <li>
+                  <a href="http://instagram.com/truvaoverseas/" target="_blank" rel="noopener noreferrer">
+                    <img src={instagram} alt="instagram" />
+                  </a>
+
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="footer-detail-common">
             <div className="footer-title-inner">
@@ -45,7 +51,7 @@ const Footer = () => {
             <div className="footer-manu">
               <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About Us</Link></li>
+                {/* <li><Link to="/#welcomeabout">About Us</Link></li> */}
                 <li><Link to="/domestic">Domestic</Link></li>
                 <li><Link to="/international">International</Link></li>
                 <li><Link to="/contactus">Contact Us</Link></li>
@@ -61,7 +67,7 @@ const Footer = () => {
                 <li><Link to="/studentvisa">Student Visa</Link></li>
                 <li><Link to="/visitorvisa">Visitor Visa</Link></li>
                 <li><Link to="/Immigrate">Immigrate</Link></li>
-                
+
               </ul>
             </div>
           </div>
@@ -71,17 +77,17 @@ const Footer = () => {
             </div>
             <div className="footer-manu">
               <ul>
-                <li><a href="https://www.google.com/maps?q=C-804,+Titanium+City+Center,+100+Feet+Road,+Satellite,+Ahmedabad,+Gujarat+380015"  target="_blank"><span><img src={maps} alt="maps" /></span>C- 804, Titanium City Center, 100 Feet Rd <br /> Satellite, Ahmedabad, Gujarat 380015</a></li>
+                <li><a href="https://www.google.com/maps?q=C-804,+Titanium+City+Center,+100+Feet+Road,+Satellite,+Ahmedabad,+Gujarat+380015" target="_blank"><span><img src={maps} alt="maps" /></span>C- 804, Titanium City Center, 100 Feet Rd <br /> Satellite, Ahmedabad, Gujarat 380015</a></li>
                 <li className="d-flex items-center gap-4">
-                <span>
-                <img src={phoneicon} alt="phoneicon" />
-                </span>
-                 <span>
-                 <a href="tel:+1234567890">+91 6356 494 895</a>
-                 {/* <a href="tel:+0987654321">+0 987 654 321</a> */}
-                 </span>
-                 </li>
-                 <li><a href="mailto:truvaoverseas@gmail.com"><span><img src={mailicon} alt="mailicon" /></span>truvaoverseas@gmail.com</a></li>
+                  <span>
+                    <img src={phoneicon} alt="phoneicon" />
+                  </span>
+                  <span>
+                    <a href="tel:+1234567890">+91 6356 494 895</a>
+                    {/* <a href="tel:+0987654321">+0 987 654 321</a> */}
+                  </span>
+                </li>
+                <li><a href="mailto:truvaoverseas@gmail.com"><span><img src={mailicon} alt="mailicon" /></span>truvaoverseas@gmail.com</a></li>
               </ul>
             </div>
           </div>
