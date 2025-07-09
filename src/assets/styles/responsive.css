@@ -655,9 +655,9 @@
     }
 
     .name-box {
-        padding: 10px 29px 10px 60px;
+        padding: 10px 30px 10px 30px;
         max-width: 200px;
-        margin-left: -50px;
+        /* margin-left: -50px; */
     }
 
     .quote-icon img {
@@ -925,7 +925,7 @@
     }
 
     .main-banner {
-        height: 400px !important;
+        height: 270px !important;
     }
 
     .banner-detail-title p {
@@ -1502,6 +1502,9 @@
         top: -13px;
         left: -20px;
     }
+    .main-banner {
+        height: 200px !important;
+    }
 }
 
 @media only screen and (max-width: 389px) {
@@ -1583,10 +1586,10 @@
 
 @media only screen and (max-width: 374px) {
     :root {
-        --font-80px: 27px;
-        --font-68px: 30px;
-        --font-66px: 30px;
-        --font-60px: 30px;
+        --font-80px: 26px;
+        --font-68px: 26px;
+        --font-66px: 26px;
+        --font-60px: 26px;
 
     }
 
