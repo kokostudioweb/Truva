@@ -95,7 +95,7 @@ style={{
 >
 <div className="truva-container">
     <div className="banner-detail-title">
-    <h2>Your Gateway to Global <br /> Opportunities & Dream <br /> Holidays</h2>
+    {/* <h2>Your Gateway to Global <br /> Opportunities & Dream <br /> Holidays</h2> */}
     {/* <p>Empowering your global journey with expert visa solutions and unforgettable travel experiences. From student visas to dream holidays - we handle it all, effortlessly.</p>
     <button className='blue-button-fill' onClick={handleClick}>
                 Contact Us
