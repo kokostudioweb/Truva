@@ -55,6 +55,9 @@ const Europe = () => {
   const handleImageError = (e) => {
     e.target.src = "/fallback.png"; // Optional fallback
   };
+
+   const navigate = useNavigate();
+
   return (
     <>
 
@@ -326,7 +329,7 @@ const Europe = () => {
             <h1 className="study-title">Popular Study Destinations in Europe</h1>
             <div className="study-grid">
               {countries.map((country) => (
-                <div key={country.code} className="study-item">
+                <div onClick={() => navigate('/contactus')} key={country.code} className="study-item">
                   <img
                     src={`https://flagcdn.com/24x18/${country.code}.png`}
                     alt={country.name}

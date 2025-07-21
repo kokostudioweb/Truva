@@ -16,30 +16,30 @@ import malaysiai from '../assets/images/malaysiai.png';
 import malaysiaj from '../assets/images/malaysiaj.png';
 import malaysiak from '../assets/images/malaysiak.png';
 import malaysial from '../assets/images/malaysial.png';
+import Gallery from "./Gallery";
 
-const images = [
-  malaysiaa, malaysiad, malaysiag, malaysiaj,
-  malaysiab, malaysiae, malaysiah, malaysiak,
-  malaysiac, malaysiaf, malaysiai, malaysial
+const places = [
+  { image: malaysiaa, title: "Malacca" },
+  { image: malaysiad, title: "Gunung Mulu National Park" },
+  { image: malaysiag, title: "Kek lok si" },
+  { image: malaysiaj, title: "Penang Hill" },
+  { image: malaysiab, title: "Sultan Abdul Samad Building" },
+  { image: malaysiae, title: "Cameron Highlands" },
+  { image: malaysiah, title: "Kuala Lumpur " },
+  { image: malaysiak, title: "Batu Caves" },
+  { image: malaysiac, title: "Langkawi Sky Bridge" },
+  { image: malaysiaf, title: "Langkawi" },
+  { image: malaysiai, title: "KL Tower" },
+  { image: malaysial, title: "Batu Caves" }
 ];
+
 
 const MalaysiaGallary = () => {
   useEffect(() => {
     AOS.init({ duration: 800 });
   }, []);
 
-  return (
-  
-    <div className="gallery-container">
-      <div className="masonry-grid">
-        {images.map((img, index) => (
-          <div className="masonry-item" key={index} data-aos="fade-up">
-            <img src={img} alt={`Singapore ${index + 1}`} />
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+ return <Gallery places={places} />;
 };
 
 export default MalaysiaGallary;

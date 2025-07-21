@@ -33,10 +33,10 @@ const Footer = () => {
                 <a href=""><img src={twitter} alt="twitter" /></a>
               </li> */}
                 <li>
-                  <a href=""><img src={linkdin} alt="linkdin" /></a>
+                  <a href="https://www.linkedin.com/company/truva-overseas/" target="_blank" rel="noopener noreferrer"><img src={linkdin} alt="linkdin" /></a>
                 </li>
                 <li>
-                  <a href="http://instagram.com/truvaoverseas/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.instagram.com/truva.overseas/" target="_blank" rel="noopener noreferrer">
                     <img src={instagram} alt="instagram" />
                   </a>
 
@@ -73,6 +73,7 @@ const Footer = () => {
           </div>
           <div className="footer-detail-common">
             <div className="footer-title-inner">
+              
               <h3>Contact us</h3>
             </div>
             <div className="footer-manu">
@@ -96,8 +97,9 @@ const Footer = () => {
       <div className="footer-copyright">
       </div>
       <div className="truva-container">
-        <div className="footer-copyright-detail">
+        <div className="footer-copyright-detail flex justify-between items-center">
           <p> © 2023  Company. All Right Reserved.</p>
+          <p>Terms & Conditions apply</p>
         </div>
       </div>
     </div>

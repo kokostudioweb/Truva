@@ -42,7 +42,7 @@ const StudentVisa = () => {
 <div className="card-section-main common-card">
     <div className="truva-container">
     <div className="cardblock">
-         <div className="ourservice-inner-card-data">
+         <div onClick={() => navigate('/usa')}  className="ourservice-inner-card-data">
             <img className='visamain-image' src={usabg} alt="usabg" />
             <div className="serviceinner-card-details">
                 <div className="invest-grey-round">
@@ -56,7 +56,7 @@ const StudentVisa = () => {
             </div>
               
             </div>
-         <div className="ourservice-inner-card-data">
+         <div onClick={() => navigate('/canada')} className="ourservice-inner-card-data">
             <img className='visamain-image' src={canadacard} alt="canadacard" />
             <div className="serviceinner-card-details">
                 <div className="invest-grey-round">
@@ -70,7 +70,7 @@ const StudentVisa = () => {
             </div>
               
             </div>
-         <div className="ourservice-inner-card-data">
+         <div onClick={() => navigate('/uk')} className="ourservice-inner-card-data">
             <img className='visamain-image' src={ukcard} alt="ukcard" />
             <div className="serviceinner-card-details">
                 <div className="invest-grey-round">
@@ -84,7 +84,7 @@ const StudentVisa = () => {
             </div>
               
             </div>
-         <div className="ourservice-inner-card-data">
+         <div onClick={() => navigate('/australia')} className="ourservice-inner-card-data">
             <img className='visamain-image' src={australiyacard} alt="australiyacard" />
             <div className="serviceinner-card-details">
                 <div className="invest-grey-round">
@@ -98,7 +98,7 @@ const StudentVisa = () => {
             </div>
               
             </div>
-         <div className="ourservice-inner-card-data">
+         <div onClick={() => navigate('/europe')} className="ourservice-inner-card-data">
             <img className='visamain-image' src={europcard} alt="europcard" />
             <div className="serviceinner-card-details">
                 <div className="invest-grey-round">

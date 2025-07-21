@@ -218,6 +218,7 @@ margin-bottom: 20px;
 
 .ourservice-inner-card-data{
   border-radius: 20px;
+  cursor: pointer;
     
       /* position: relative; */
 }
@@ -2537,4 +2538,46 @@ font-size: var(--font-18px);
 }
 .card.right.card-global-reach-with-local-insight.animate {
     margin-left: 0;
+}
+
+
+
+.gallery-container {
+  padding: 20px;
+}
+
+.masonry-grid {
+  column-count: 3;
+  column-gap: 16px;
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  display: block;
+  border-radius: 25px;
+}
+
+.image-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+  padding: 8px;
+  font-size: var(--font-18px);
+  text-align: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }

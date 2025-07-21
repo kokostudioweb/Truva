@@ -16,11 +16,21 @@ import japani from '../assets/images/japani.png';
 import japanj from '../assets/images/japanj.png';
 import japank from '../assets/images/japank.png';
 import japanl from '../assets/images/japanl.png';
+import Gallery from "./Gallery";
 
-const images = [
-  japana, japand, japang, japanj,
-  japanb, japane, japanh, japank,
-  japanc, japanf, japani, japanl
+const places = [
+  { image: japana, title: "Tokyo, Japan" },
+  { image: japand, title: "Osaka Castle" },
+  { image: japang, title: "Mount Koya" },
+  { image: japanj, title: "Fushimi Inari Taisha" },
+  { image: japanb, title: "Matsumoto Castle" },
+  { image: japane, title: "Tokyo Tower" },
+  { image: japanh, title: "Seiganto Ji Temple" },
+  { image: japank, title: "Hokan-ji Temple" },
+  { image: japanc, title: "Kamakura" },
+  { image: japanf, title: "Arukurayama Sengen Park" },
+  { image: japani, title: "Mount Fuji" },
+  { image: japanl, title: "Sensoji Temple" }
 ];
 
 const JapanGallary = () => {
@@ -28,18 +38,7 @@ const JapanGallary = () => {
     AOS.init({ duration: 800 });
   }, []);
 
-  return (
-  
-    <div className="gallery-container">
-      <div className="masonry-grid">
-        {images.map((img, index) => (
-          <div className="masonry-item" key={index} data-aos="fade-up">
-            <img src={img} alt={`Singapore ${index + 1}`} />
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+   return <Gallery places={places} />;
 };
 
 export default JapanGallary;

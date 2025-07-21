@@ -2,9 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import internactionalbanner from '../images/internactionalbanner.png';
 import InqueryCommon from './inquerycommon';
-import visitarvisa from '../images/visitarvisa.png';
-import immeraction from '../images/immeraction.png';
-import studentvisa from '../images/studentvisa.png';
+import Footer from './footer';
+
 import singapur from '../images/singapur.png';
 import duai from '../images/duai.png';
 import japan from '../images/japan.png';
@@ -12,124 +11,97 @@ import bali from '../images/bali.png';
 import malaysia from '../images/malaysia.png';
 import turkey from '../images/turkey.png';
 import rightarrow from '../images/rightarrow.svg';
-import Footer from './footer';
+
+const destinations = [
+  {
+    name: "Singapore",
+    image: singapur,
+    path: "/singapore",
+    description: "A futuristic skyline, shopping bliss, and family-friendly attractions await in this island city-state.",
+  },
+  {
+    name: "Dubai",
+    image: duai,
+    path: "/dubai",
+    description: "Luxury, adventure, and desert thrills combine in this dynamic Middle Eastern gem.",
+  },
+  {
+    name: "Japan",
+    image: japan,
+    path: "/japan",
+    description: "Culture, technology, and cherry blossoms form the perfect travel experience.",
+  },
+  {
+    name: "Bali",
+    image: bali,
+    path: "/bali",
+    description: "Serene beaches, spiritual temples, and lush nature for soul-soothing escapes.",
+  },
+  {
+    name: "Malaysia",
+    image: malaysia,
+    path: "/malaysia",
+    description: "A cultural mosaic of cuisines, skyscrapers, and tropical beauty.",
+  },
+  {
+    name: "Turkey",
+    image: turkey,
+    path: "/turkey",
+    description: "Where East meets West - explore ancient ruins, bazaars, and exotic cuisine.",
+  },
+];
 
 const International = () => {
-
   const navigate = useNavigate();
+
   return (
-    <>
-     <div className="international-main">
-   <div className="main-banner-common"
-                style={{
-                  backgroundImage: `url(${internactionalbanner})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  height: '720px',
-                  width: '100%',
-                  objectFit:'contain',
-                }}
-                >
-                <div className="truva-container">
-                    <div className="banner-common-title">
-                    <h2>International Holiday Packages </h2>
-           
-                </div>
-                </div>
-                </div>
-                <div className="truva-container">
- <div className="visa-card">
-        <div className="ourservice-inner-card-data">
-    <img className='visamain-image' src={singapur} alt="singapur" />
-    <div className="serviceinner-card-details">
-        <div className="invest-grey-round">
-            {/* <img className='' src={studentlogo} alt="sstudentlogo" /> */}
+    <div className="international-main">
+      <div
+        className="main-banner-common"
+        style={{
+          backgroundImage: `url(${internactionalbanner})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          height: '720px',
+          width: '100%',
+          objectFit: 'contain',
+        }}
+      >
+        <div className="truva-container">
+          <div className="banner-common-title">
+            <h2>International Holiday Packages</h2>
+          </div>
         </div>
-      
-      <h3>Singapore </h3>
-      <p> A futuristic skyline, shopping bliss, and family-friendly attractions await in this island city-state.</p>
-      {/* <button   onClick={() => navigate('/InvestmentServices')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={righttoparrow} alt="righttoparrow" /></span></button> */}
-      <button onClick={() => navigate('/singapore')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
-    </div>
-    </div>
-        <div className="ourservice-inner-card-data">
-    <img className='visamain-image' src={duai} alt="duai" />
-    <div className="serviceinner-card-details">
-        <div className="invest-grey-round">
-            {/* <img className='' src={studentlogo} alt="sstudentlogo" /> */}
-        </div>
-      
-      <h3>Dubai </h3>
-      <p> Luxury, adventure, and desert thrills combine in this dynamic Middle Eastern gem.</p>
-      {/* <button   onClick={() => navigate('/InvestmentServices')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={righttoparrow} alt="righttoparrow" /></span></button> */}
-      <button onClick={() => navigate('/dubai')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
-    </div>
-      
-    </div>
-        <div className="ourservice-inner-card-data">
-    <img className='visamain-image' src={japan} alt="japan" />
-    <div className="serviceinner-card-details">
-        <div className="invest-grey-round">
-            {/* <img className='' src={studentlogo} alt="sstudentlogo" /> */}
-        </div>
-      
-      <h3>Japan </h3>
-      <p>  Culture, technology, and cherry blossoms form the perfect travel experience.</p>
-      {/* <button   onClick={() => navigate('/InvestmentServices')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={righttoparrow} alt="righttoparrow" /></span></button> */}
-      <button onClick={() => navigate('/japan')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
-    </div>
-      
-    </div>
-        <div className="ourservice-inner-card-data">
-    <img className='visamain-image' src={bali} alt="bali" />
-    <div className="serviceinner-card-details">
-        <div className="invest-grey-round">
-            {/* <img className='' src={studentlogo} alt="sstudentlogo" /> */}
-        </div>
-      
-      <h3>Bali</h3>
-      <p>Serene beaches, spiritual temples, and lush nature for soul-soothing escapes.
-</p>
-      {/* <button   onClick={() => navigate('/InvestmentServices')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={righttoparrow} alt="righttoparrow" /></span></button> */}
-      <button onClick={() => navigate('/bali')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
-    </div>
-    </div>
-        <div className="ourservice-inner-card-data">
-    <img className='visamain-image' src={malaysia} alt="malaysia" />
-    <div className="serviceinner-card-details">
-        <div className="invest-grey-round">
-            {/* <img className='' src={studentlogo} alt="sstudentlogo" /> */}
-        </div>
-      
-      <h3>Malaysia</h3>
-      <p> A cultural mosaic of cuisines, skyscrapers, and tropical beauty.</p>
-      {/* <button   onClick={() => navigate('/InvestmentServices')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={righttoparrow} alt="righttoparrow" /></span></button> */}
-      <button onClick={() => navigate('/malaysia')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
-    </div>
-      
-    </div>
-        <div className="ourservice-inner-card-data">
-    <img className='visamain-image' src={turkey} alt="turkey" />
-    <div className="serviceinner-card-details">
-        <div className="invest-grey-round">
-            {/* <img className='' src={studentlogo} alt="sstudentlogo" /> */}
-        </div>
-      
-      <h3>Turkey</h3>
-      <p> Where East meets West - explore ancient ruins, bazaars, and exotic cuisine.</p>
-      {/* <button   onClick={() => navigate('/InvestmentServices')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={righttoparrow} alt="righttoparrow" /></span></button> */}
-      <button onClick={() => navigate('/turkey')} className='flex gap-2 items-center'><span>Read More</span> <span><img src={rightarrow} alt="rightarrow" /></span></button>
-    </div>
-      
-    </div>
-     </div>
-</div>
-             <div>
-                  <InqueryCommon/>
-                </div>
-      <Footer />
       </div>
-    </>
+
+      <div className="truva-container">
+        <div className="visa-card">
+          {destinations.map((place, index) => (
+            <div
+              key={index}
+              className="ourservice-inner-card-data"
+              onClick={() => navigate(place.path)}
+            >
+              <img className="visamain-image" src={place.image} alt={place.name} />
+              <div className="serviceinner-card-details">
+                <div className="invest-grey-round"></div>
+                <h3>{place.name}</h3>
+                <p>{place.description}</p>
+                <button className="flex gap-2 items-center">
+                  <span>Read More</span>
+                  <span>
+                    <img src={rightarrow} alt="rightarrow" />
+                  </span>
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <InqueryCommon />
+      <Footer />
+    </div>
   );
 };
 

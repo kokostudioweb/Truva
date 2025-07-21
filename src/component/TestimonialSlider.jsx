@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import swipericoncoma from '../assets/images/swipericoncoma.png';
@@ -51,7 +51,12 @@ const TestimonialSlider = () => {
         slidesPerView={1}
         spaceBetween={30}
         pagination={{ clickable: true }}
-        modules={[Pagination]}
+        // modules={[Pagination]}
+        autoplay={{
+    delay: 3000,       // 3 seconds between slides
+    disableOnInteraction: false, // continue autoplay after user swipes
+  }}
+  modules={[Autoplay, Pagination]}
         breakpoints={{
           768: {
             slidesPerView: 1,

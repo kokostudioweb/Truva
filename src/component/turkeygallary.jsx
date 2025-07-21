@@ -16,11 +16,21 @@ import turkeyi from '../assets/images/turkeyi.png';
 import turkeyj from '../assets/images/turkeyj.png';
 import turkeyk from '../assets/images/turkeyk.png';
 import turkeyl from '../assets/images/turkeyl.png';
+import Gallery from "./Gallery";
 
-const images = [
-  turkeya, turkeyd, turkeyg, turkeyj,
-  turkeyb, turkeye, turkeyh, turkeyk,
-  turkeyc, turkeyf, turkeyi, turkeyl
+const places = [
+  { image: turkeya, title: "Hagia Sophia" },
+  { image: turkeyd, title: "Cappadocia no" },
+  { image: turkeyg, title: "Library of Celsus" },
+  { image: turkeyj, title: "Aspendos Theatre" },
+  { image: turkeyb, title: "Balat Street" },
+  { image: turkeye, title: "Mardin" },
+  { image: turkeyh, title: "Cappadocia" },
+  { image: turkeyk, title: "Suleymaniya Mosque" },
+  { image: turkeyc, title: "The Maiden's Tower" },
+  { image: turkeyf, title: "Bosphorus Bridge" },
+  { image: turkeyi, title: "Izmir Clock Tower" },
+  { image: turkeyl, title: "Antalya Marina" }
 ];
 
 const TurkeyGallary = () => {
@@ -28,18 +38,7 @@ const TurkeyGallary = () => {
     AOS.init({ duration: 800 });
   }, []);
 
-  return (
-  
-    <div className="gallery-container">
-      <div className="masonry-grid">
-        {images.map((img, index) => (
-          <div className="masonry-item" key={index} data-aos="fade-up">
-            <img src={img} alt={`Singapore ${index + 1}`} />
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+return <Gallery places={places} />;
 };
 
 export default TurkeyGallary;
