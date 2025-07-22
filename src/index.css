@@ -2547,8 +2547,20 @@ font-size: var(--font-18px);
 }
 
 .masonry-grid {
-  column-count: 3;
+  column-count: 1;
   column-gap: 16px;
+}
+
+@media (min-width: 600px) {
+  .masonry-grid {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 900px) {
+  .masonry-grid {
+    column-count: 3;
+  }
 }
 
 .masonry-item {
@@ -2573,7 +2585,7 @@ font-size: var(--font-18px);
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   color: #fff;
   padding: 8px;
   font-size: var(--font-18px);
@@ -2581,6 +2593,7 @@ font-size: var(--font-18px);
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
+
 .dropdown-item.active, .dropdown-item:active{
     background-color: transparent;
     color: var(--blue-color);

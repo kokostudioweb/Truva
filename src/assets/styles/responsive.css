@@ -891,20 +891,21 @@
         width: 100%;
     }
 
-    .ms-auto.main-navbar-data.items-center.navbar-nav a:not(:last-child) {
-        border-bottom: 1px solid;
-        width: 100%;
-        padding: 5px 0px;
-    }
-
-    .nav-item.dropdown {
-        border-bottom: 1px solid;
-        width: 100%;
-        padding: 5px 0px;
-    }
-.nav-item.dropdown:not(:last-child){
-    border: none;
+ /* Apply border-bottom to all nav links inside .main-navbar-data, except dropdown items */
+.main-navbar-data.navbar-nav > .nav-item:not(.dropdown) {
+    border-bottom: 1px solid;
+    width: 100%;
+    padding: 5px 0;
 }
+
+/* Optional: still apply width and padding to dropdowns, but no border */
+.main-navbar-data.navbar-nav > .nav-item.dropdown {
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: none;
+}
+
+
     .dropdown-menu {
         border: none;
         background: transparent;
