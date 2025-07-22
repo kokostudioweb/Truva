@@ -2391,7 +2391,7 @@ font-size: var(--font-18px);
 }
 .main-banner {
         height: 510px !important;
-        background-position: unset !important;
+        /* background-position: unset !important; */
     }
     .main-banner-common{
       height: 510px !important;
