@@ -11,8 +11,42 @@ import mailicon from "../../images/mailicon.svg";
 import InqueryCommon from '../inquerycommon';
 import Footer from '../footer';
 import MalaysiaGallary from '../../../component/malaysiagallary';
+import CountryInfoCards from '../../../component/CountryInfoCards';
+import language from "../../images/language.svg";
+import thumbup from "../../images/thumbup.svg";
+import userdollar from "../../images/userdollar.svg";
+import temperature from "../../images/temperature.svg";
 
 const Malaysia = () => {
+     const singaporeCards = [
+  {
+    title: "CLIMATE",
+    icon: temperature,
+    items: [
+      "The average temperature across Malaysia typically ranges between 25°C to 30°C  year-round.",
+    ],
+  },
+  {
+    title: "CURRENCY",
+    icon: userdollar,
+    items: ["Malaysia’s currency is the Malaysian Ringgit (MYR), symbolized as RM."],
+  },
+  {
+    title: "LANGUAGE",
+    icon: language,
+    items: [
+      "Malaysia’s official language is Malay (Bahasa Malaysia), used in government, education, and daily communication.",
+      "English is also widely spoken",
+    ],
+  },
+  {
+    title: "BEST TIME TO VISIT",
+    icon: thumbup,
+    items: [
+      "The best time to visit Malaysia is between March to October as this period offers the most pleasant weather across most of the country, with less rain and comfortable temperatures.",
+    ],
+  },
+];
   
   return (
     <>
@@ -57,6 +91,11 @@ const Malaysia = () => {
                           </div>
                        
                         </div>
+                      </div>
+                      <div className="country-card">
+                      <div className="truva-container">
+                         <CountryInfoCards cards={singaporeCards} />
+                      </div>
                       </div>
                 <div className="main-galary-section">
                   <div className="truva-container">

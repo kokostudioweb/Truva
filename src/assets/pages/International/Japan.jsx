@@ -12,8 +12,43 @@ import mailicon from "../../images/mailicon.svg";
 import InqueryCommon from '../inquerycommon';
 import Footer from '../footer';
 import JapanGallary from '../../../component/japangallary';
+import CountryInfoCards from '../../../component/CountryInfoCards';
+import language from "../../images/language.svg";
+import thumbup from "../../images/thumbup.svg";
+import userdollar from "../../images/userdollar.svg";
+import temperature from "../../images/temperature.svg";
 
 const Japan = () => {
+  const singaporeCards = [
+  {
+    title: "CLIMATE",
+    icon: temperature,
+    items: [
+      "The average temperature across Japan typically ranges between –5°C to 35°C . ",
+      "These temperatures are averages and  vary depending on the specific location and year. ",
+    ],
+  },
+  {
+    title: "CURRENCY",
+    icon: userdollar,
+    items: ["The currency of Japan is the Japanese Yen (JPY)."],
+  },
+  {
+    title: "LANGUAGE",
+    icon: language,
+    items: [
+      "The official language of Japan is Japanese.",
+      "Japanese is the dominant language, some people, especially in urban areas, may speak English.",
+    ],
+  },
+  {
+    title: "BEST TIME TO VISIT",
+    icon: thumbup,
+    items: [
+      "March to May and September to November are the most recommended times for pleasant weather and natural beauty.",
+    ],
+  },
+];
   
   return (
     <>
@@ -59,6 +94,11 @@ const Japan = () => {
                           </div>
                        
                         </div>
+                      </div>
+                      <div className="country-card">
+                      <div className="truva-container">
+                         <CountryInfoCards cards={singaporeCards} />
+                      </div>
                       </div>
                 <div className="main-galary-section">
                   <div className="truva-container">

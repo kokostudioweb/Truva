@@ -3,16 +3,46 @@ import { useNavigate } from 'react-router-dom';
 
 import balibanner from '../../images/balibanner.png';
 import balihero from '../../images/balihero.png';
-import Gallery from '../Gallery';
-import Contactform from '../contactform';
-import maps from "../../images/maps.svg";
-import phoneicon from "../../images/phoneicon.svg";
-import mailicon from "../../images/mailicon.svg";
 import InqueryCommon from '../inquerycommon';
 import Footer from '../footer';
 import BaliGallary from '../../../component/baligallary';
+import CountryInfoCards from '../../../component/CountryInfoCards';
+import language from "../../images/language.svg";
+import thumbup from "../../images/thumbup.svg";
+import userdollar from "../../images/userdollar.svg";
+import temperature from "../../images/temperature.svg";
 
 const Bali = () => {
+  const singaporeCards = [
+  {
+    title: "CLIMATE",
+    icon: temperature,
+    items: [
+      "Average temperature lies between 26°C to 30°C.",
+      "Bali has a tropical climate,characterized by warm temperatures and high humidity year-round. ",
+    ],
+  },
+  {
+    title: "CURRENCY",
+    icon: userdollar,
+    items: ["The Currency of Bali and Indonesia is the Indonesian Rupiah(IDR)."],
+  },
+  {
+    title: "LANGUAGE",
+    icon: language,
+    items: [
+      "The official language of Bali is Indonesian(Bahasa Indonesia).",
+      "English is also widely spoken in tourist areas,hotels and businesses.",
+    ],
+  },
+  {
+    title: "BEST TIME TO VISIT",
+    icon: thumbup,
+    items: [
+      "April to October is considered the best season to visit Bali.",
+    ],
+  },
+];
   
   return (
     <>
@@ -59,6 +89,11 @@ const Bali = () => {
                           </div>
                        
                         </div>
+                      </div>
+                      <div className="country-card">
+                      <div className="truva-container">
+                         <CountryInfoCards cards={singaporeCards} />
+                      </div>
                       </div>
                 <div className="main-galary-section">
                   <div className="truva-container">

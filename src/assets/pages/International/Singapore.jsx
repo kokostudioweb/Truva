@@ -6,14 +6,46 @@ import singapurhero from '../../images/singapurhero.png';
 import inquaryimage from '../../images/inquaryimage.png';
 import Gallery from '../Gallery';
 import Contactform from '../contactform';
-import maps from "../../images/maps.svg";
-import phoneicon from "../../images/phoneicon.svg";
-import mailicon from "../../images/mailicon.svg";
+import language from "../../images/language.svg";
+import thumbup from "../../images/thumbup.svg";
+import userdollar from "../../images/userdollar.svg";
+import temperature from "../../images/temperature.svg";
 import InqueryCommon from '../inquerycommon';
 import Footer from '../footer';
 import SingaporeGallary from '../../../component/singaporegallary';
+import CountryInfoCards from '../../../component/CountryInfoCards';
 
 const Singapore = () => {
+  const singaporeCards = [
+  {
+    title: "CLIMATE",
+    icon: temperature,
+    items: [
+      "Average temperature lies between 25°C to 31°C.  ",
+      "Singapore has a tropical  climate defined by high temperatures, high humidity, and rainfall year-round.",
+    ],
+  },
+  {
+    title: "CURRENCY",
+    icon: userdollar,
+    items: ["The currency of Singapore is the Singapore Dollar (SGD)."],
+  },
+  {
+    title: "LANGUAGE",
+    icon: language,
+    items: [
+      "Singapore is a multicultural nation with four official languages:English,Tamil, Malay and Mandarin.",
+    ],
+  },
+  {
+    title: "BEST TIME TO VISIT",
+    icon: thumbup,
+    items: [
+      "The best time to visit is from December to June, as this period experiences relatively pleasant weather and numerous events.",
+      "However, Singapore’s tropical climate means it’s a year-round destination.",
+    ],
+  },
+];
   
   return (
     <>
@@ -62,6 +94,11 @@ const Singapore = () => {
                           </div>
                        
                         </div>
+                      </div>
+                      <div className="country-card">
+                      <div className="truva-container">
+                         <CountryInfoCards cards={singaporeCards}  />
+                      </div>
                       </div>
                 <div className="main-galary-section">
                   <div className="truva-container">

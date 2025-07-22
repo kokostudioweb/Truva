@@ -3,16 +3,45 @@ import { useNavigate } from 'react-router-dom';
 
 import turkeybanner from '../../images/turkeybanner.png';
 import turkeyhero from '../../images/turkeyhero.png';
-import Gallery from '../Gallery';
-import Contactform from '../contactform';
-import maps from "../../images/maps.svg";
-import phoneicon from "../../images/phoneicon.svg";
-import mailicon from "../../images/mailicon.svg";
 import InqueryCommon from '../inquerycommon';
 import Footer from '../footer';
 import TurkeyGallary from '../../../component/turkeygallary';
+import CountryInfoCards from '../../../component/CountryInfoCards';
+import language from "../../images/language.svg";
+import thumbup from "../../images/thumbup.svg";
+import userdollar from "../../images/userdollar.svg";
+import temperature from "../../images/temperature.svg";
 
 const Turkey = () => {
+     const singaporeCards = [
+  {
+    title: "CLIMATE",
+    icon: temperature,
+    items: [
+      "The average temperature across Turkey typically ranges between 12°C to 30°C year-round, with extremes depending on the altitude and region. ",
+    ],
+  },
+  {
+    title: "CURRENCY",
+    icon: userdollar,
+    items: ["The official currency of Turkey is the Turkish Lira (TRY)."],
+  },
+  {
+    title: "LANGUAGE",
+    icon: language,
+    items: [
+      "The official language of Turkey is Turkish (Türkçe), which is spoken by the vast majority of the population.",
+      "English is widely spoken in major cities, tourist areas, hotels, and restaurants.",
+    ],
+  },
+  {
+    title: "BEST TIME TO VISIT",
+    icon: thumbup,
+    items: [
+      "Best Overall: April to June and September to November for mild weather, fewer crowds, and ideal conditions for sightseeing and outdoor activities.",
+    ],
+  },
+];
   
   return (
     <>
@@ -58,6 +87,11 @@ const Turkey = () => {
                                        
                                         </div>
                                       </div>
+                                      <div className="country-card">
+                      <div className="truva-container">
+                         <CountryInfoCards cards={singaporeCards} />
+                      </div>
+                      </div>
                 <div className="main-galary-section">
                   <div className="truva-container">
 

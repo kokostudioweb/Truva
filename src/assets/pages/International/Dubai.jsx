@@ -12,9 +12,45 @@ import mailicon from "../../images/mailicon.svg";
 import InqueryCommon from '../inquerycommon';
 import Footer from '../footer';
 import DubaiGallary from '../../../component/dubaigallary';
+import CountryInfoCards from '../../../component/CountryInfoCards';
+import language from "../../images/language.svg";
+import thumbup from "../../images/thumbup.svg";
+import userdollar from "../../images/userdollar.svg";
+import temperature from "../../images/temperature.svg";
 
 
 const Dubai = () => {
+  const singaporeCards = [
+  {
+    title: "CLIMATE",
+    icon: temperature,
+    items: [
+      "Average temperature lies between 20°C to 45°C. ",
+      "Bali has a tropical climate,characterized by warm temperatures and high humidity year-round. ",
+    ],
+  },
+  {
+    title: "CURRENCY",
+    icon: userdollar,
+    items: ["The currency of the United Arab Emirates (UAE) is the UAE Dirham (AED)."],
+  },
+  {
+    title: "LANGUAGE",
+    icon: language,
+    items: [
+      "The official language UAE in Arabic.",
+      "English is also widely spoken in tourist areas,hotels and businesses.",
+      "Hindi, Urdu, Malayalam, Tamil, Bengali, and Persian are widely spoken.",
+    ],
+  },
+  {
+    title: "BEST TIME TO VISIT",
+    icon: thumbup,
+    items: [
+      "The winter months (November to March) are ideal, offering pleasant weather suitable for outdoor activities, sightseeing, and events like the Dubai Shopping Festival and Abu Dhabi Grand Prix.",
+    ],
+  },
+];
   
   return (
     <>
@@ -60,7 +96,11 @@ const Dubai = () => {
                        
                         </div>
                       </div>
-
+<div className="country-card">
+                      <div className="truva-container">
+                         <CountryInfoCards cards={singaporeCards} />
+                      </div>
+                      </div>
                 <div className="main-galary-section">
                   <div className="truva-container">
 <DubaiGallary />
