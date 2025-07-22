@@ -2581,3 +2581,7 @@ font-size: var(--font-18px);
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
+.dropdown-item.active, .dropdown-item:active{
+    background-color: transparent;
+    color: var(--blue-color);
+}

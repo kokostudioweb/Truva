@@ -1086,10 +1086,7 @@
     }
     
     
-.dropdown-item.active, .dropdown-item:active{
-    background-color: transparent;
-    color: var(--blue-color);
-}
+
 }
 
 @media only screen and (max-width: 800px) {
