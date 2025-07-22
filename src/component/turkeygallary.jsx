@@ -19,10 +19,10 @@ import turkeyl from '../assets/images/turkeyl.png';
 import Gallery from "./Gallery";
 
 const places = [
-  { image: turkeya, title: "Hagia Sophia" },
-  { image: turkeyd, title: "Cappadocia no" },
-  { image: turkeyg, title: "Library of Celsus" },
-  { image: turkeyj, title: "Aspendos Theatre" },
+  { image: turkeya, title: "Kaleici" },
+  { image: turkeyd, title: "Mount Nemrut" },
+  { image: turkeyg, title: "Ephesus" },
+  { image: turkeyj, title: "Antalya" },
   { image: turkeyb, title: "Balat Street" },
   { image: turkeye, title: "Mardin" },
   { image: turkeyh, title: "Cappadocia" },
@@ -30,7 +30,7 @@ const places = [
   { image: turkeyc, title: "The Maiden's Tower" },
   { image: turkeyf, title: "Bosphorus Bridge" },
   { image: turkeyi, title: "Izmir Clock Tower" },
-  { image: turkeyl, title: "Antalya Marina" }
+  { image: turkeyl, title: "Galata Tower" }
 ];
 
 const TurkeyGallary = () => {
